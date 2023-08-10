@@ -38,8 +38,8 @@
             "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
             "selector": "div.layout__region > div.block > div.group-wrapper > div.usa-accordion",
             "boundingRect": {
-              "top": 350,
-              "bottom": 439,
+              "top": 358,
+              "bottom": 447,
               "left": 17,
               "right": 395,
               "width": 378,
@@ -235,8 +235,8 @@
             "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,A,0,H3,0,BUTTON",
             "selector": "div.usa-accordion > a.group-menu-title > h3.usa-accordion__heading > button.usa-accordion__button",
             "boundingRect": {
-              "top": 379,
-              "bottom": 411,
+              "top": 387,
+              "bottom": 419,
               "left": 314,
               "right": 390,
               "width": 76,
@@ -378,8 +378,8 @@
             "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
             "selector": "div.block-body > div > div.field-formatter--text-default > h3",
             "boundingRect": {
-              "top": 993,
-              "bottom": 1071,
+              "top": 1001,
+              "bottom": 1079,
               "left": 16,
               "right": 396,
               "width": 380,

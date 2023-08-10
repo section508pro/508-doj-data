@@ -1,8 +1,8 @@
 [
   {
     "path": "/",
-    "score": 0.87,
-    "performance": 0.72,
+    "score": 0.84,
+    "performance": 0.6,
     "accessibility": 0.98,
     "best-practices": 0.83,
     "seo": 0.93
@@ -10,7 +10,7 @@
   {
     "path": "/2009-01-09-einstein",
     "score": 0.86,
-    "performance": 0.9,
+    "performance": 0.91,
     "accessibility": 0.98,
     "best-practices": 0.75,
     "seo": 0.81
@@ -50,7 +50,7 @@
   {
     "path": "/2009-06-01-un-delegs",
     "score": 0.86,
-    "performance": 0.9,
+    "performance": 0.91,
     "accessibility": 0.98,
     "best-practices": 0.75,
     "seo": 0.81
@@ -82,7 +82,7 @@
   {
     "path": "/about/fy-2017-budget-and-performance-summary",
     "score": 0.91,
-    "performance": 0.95,
+    "performance": 0.97,
     "accessibility": 1,
     "best-practices": 0.83,
     "seo": 0.86
@@ -90,7 +90,7 @@
   {
     "path": "/about/fy-2017-congressional-budget-submission",
     "score": 0.91,
-    "performance": 0.94,
+    "performance": 0.93,
     "accessibility": 1,
     "best-practices": 0.83,
     "seo": 0.86
@@ -106,7 +106,7 @@
   {
     "path": "/about/fy17-budget-fact-sheets",
     "score": 0.85,
-    "performance": 0.9,
+    "performance": 0.91,
     "accessibility": 0.9,
     "best-practices": 0.75,
     "seo": 0.83
@@ -192,7 +192,7 @@
     "seo": 0.86
   },
   {
-    "path": "/afms/about-asset-forfeiture-program-afp",
+    "path": "/afms/about-asset-forfeiture-management-staff-afms",
     "score": 0.87,
     "performance": 0.91,
     "accessibility": 0.98,
@@ -232,6 +232,14 @@
     "seo": 0.81
   },
   {
+    "path": "/afms/asset-forfeiture-program-participants-and-roles",
+    "score": 0.85,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
     "path": "/afms/assets-forfeiture-fund-aff",
     "score": 0.86,
     "performance": 0.9,
@@ -246,14 +254,6 @@
     "accessibility": 0.98,
     "best-practices": 0.75,
     "seo": 0.79
-  },
-  {
-    "path": "/afms/fy2021-asset-forfeiture-fund-reports-congress",
-    "score": 0.86,
-    "performance": 0.91,
-    "accessibility": 0.96,
-    "best-practices": 0.75,
-    "seo": 0.8
   },
   {
     "path": "/NDALInterships",
@@ -290,15 +290,15 @@
   {
     "path": "/USAO-CT/CT-22-007",
     "score": 0.9,
-    "performance": 0.92,
+    "performance": 0.89,
     "accessibility": 1,
     "best-practices": 0.83,
     "seo": 0.86
   },
   {
     "path": "/USAO-CT/CT-22-008",
-    "score": 0.91,
-    "performance": 0.97,
+    "score": 0.9,
+    "performance": 0.91,
     "accessibility": 1,
     "best-practices": 0.83,
     "seo": 0.86
@@ -313,22 +313,22 @@
   },
   {
     "path": "/Usao-wdmi/Andrew-B-Birge",
-    "score": 0.9,
-    "performance": 0.91,
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/Usao-wdmi/pr/2021_0922_Mohamed_Haji",
+    "score": 0.89,
+    "performance": 0.87,
     "accessibility": 1,
     "best-practices": 0.83,
     "seo": 0.86
   },
   {
     "path": "/Usao-wdmi/pr/2021_1018_Boden",
-    "score": 0.9,
-    "performance": 0.89,
-    "accessibility": 1,
-    "best-practices": 0.83,
-    "seo": 0.86
-  },
-  {
-    "path": "/Usao-wdmi/pr/2021_1118_COPS",
     "score": 0.91,
     "performance": 0.97,
     "accessibility": 1,
@@ -336,39 +336,31 @@
     "seo": 0.86
   },
   {
-    "path": "/Usao-wdmi/pr/2021_1208_Kirkwood",
-    "score": 0.91,
-    "performance": 0.97,
+    "path": "/Usao-wdmi/pr/2021_1116_Rodriguez",
+    "score": 0.88,
+    "performance": 0.84,
     "accessibility": 1,
     "best-practices": 0.83,
     "seo": 0.86
   },
   {
-    "path": "/Usao-wdmi/pr/2022_0228_Boden",
+    "path": "/Usao-wdmi/pr/2022_0202_Castro_Indictment",
     "score": 0.89,
-    "performance": 0.88,
+    "performance": 0.87,
     "accessibility": 1,
     "best-practices": 0.83,
     "seo": 0.86
   },
   {
-    "path": "/Usao-wdmi/pr/2022_0304_Kurbanov_Williams",
-    "score": 0.91,
-    "performance": 0.96,
+    "path": "/Usao-wdmi/pr/2022_0505_Totten",
+    "score": 0.89,
+    "performance": 0.87,
     "accessibility": 1,
     "best-practices": 0.83,
     "seo": 0.86
   },
   {
-    "path": "/Usao-wdmi/pr/2022_0525_Munafo",
-    "score": 0.91,
-    "performance": 0.97,
-    "accessibility": 1,
-    "best-practices": 0.83,
-    "seo": 0.86
-  },
-  {
-    "path": "/Usao-wdmi/pr/2022_0527_Phillips-Hall",
+    "path": "/Usao-wdmi/pr/2022_0610_Brown",
     "score": 0.91,
     "performance": 0.97,
     "accessibility": 1,
@@ -377,6 +369,14 @@
   },
   {
     "path": "/Usao-wdmi/pr/2022_0628_Wilson",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0725_Sova",
     "score": 0.91,
     "performance": 0.97,
     "accessibility": 1,
