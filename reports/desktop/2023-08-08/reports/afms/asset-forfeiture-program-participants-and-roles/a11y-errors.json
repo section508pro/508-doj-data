@@ -1,0 +1,413 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-57-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,1,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.rtecenter > a",
+            "boundingRect": {
+              "top": 940,
+              "bottom": 973,
+              "left": 388,
+              "right": 609,
+              "width": 221,
+              "height": 33
+            },
+            "snippet": "<a href=\"https://www.atf.gov/asset-forfeiture\">",
+            "nodeLabel": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-145-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,1,TR",
+                  "selector": "div.ag-bottom-left > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 937,
+                    "bottom": 1032,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 95
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Bureau of Alcohol, Tobacco, Firearms and Explosives\tATF\tProtects our communitie…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-59-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,3,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.rtecenter > a",
+            "boundingRect": {
+              "top": 1077,
+              "bottom": 1092,
+              "left": 416,
+              "right": 581,
+              "width": 165,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.fbi.gov/\">",
+            "nodeLabel": "Federal Bureau of Investigation",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-146-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,3,TR",
+                  "selector": "div.ag-bottom-left > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1074,
+                    "bottom": 1133,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Federal Bureau of Investigation\tFBI\tEnforces a broad range of Federal laws and …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-62-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,5,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.rtecenter > a",
+            "boundingRect": {
+              "top": 1232,
+              "bottom": 1247,
+              "left": 371,
+              "right": 626,
+              "width": 255,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ocdetf\">",
+            "nodeLabel": "Organized Crime Drug Enforcement Task Forces",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-147-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,5,TR",
+                  "selector": "div.ag-bottom-left > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1229,
+                    "bottom": 1306,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 77
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Organized Crime Drug Enforcement Task Forces\tOCDETF\tInvestigates and prosecutes…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-64-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,7,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.rtecenter > a",
+            "boundingRect": {
+              "top": 1352,
+              "bottom": 1367,
+              "left": 417,
+              "right": 580,
+              "width": 163,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.usmarshals.gov/\">",
+            "nodeLabel": "United States Marshals Service",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-148-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,7,TR",
+                  "selector": "div.ag-bottom-left > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1349,
+                    "bottom": 1425,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 77
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "United States Marshals Service\tUSMS\tServes as the primary custodian of seized a…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-65-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,7,TR,2,TD,1,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1406,
+              "bottom": 1421,
+              "left": 808,
+              "right": 979,
+              "width": 170,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usmarshals.gov/what-we-do/asset-forfeiture\">",
+            "nodeLabel": "USMS Asset Forfeiture Division",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-148-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,1,TBODY,7,TR",
+                  "selector": "div.ag-bottom-left > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1349,
+                    "bottom": 1425,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 77
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "United States Marshals Service\tUSMS\tServes as the primary custodian of seized a…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-68-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,1,TR,0,TD,0,P,0,A",
+            "selector": "tr > td.rtecenter > p > a",
+            "boundingRect": {
+              "top": 1657,
+              "bottom": 1672,
+              "left": 396,
+              "right": 601,
+              "width": 205,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.dodig.mil/Components/DCIS/\">",
+            "nodeLabel": "Defense Criminal Investigative Service",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-149-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1654,
+                    "bottom": 1749,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 95
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Defense Criminal Investigative Service\n\n(Department of Defense)\n\n\tDCIS\tServes a…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-69-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,1,TR,0,TD,1,P,0,A",
+            "selector": "tr > td.rtecenter > p > a",
+            "boundingRect": {
+              "top": 1688,
+              "bottom": 1703,
+              "left": 434,
+              "right": 564,
+              "width": 130,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.defense.gov/\">",
+            "nodeLabel": "(Department of Defense)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-149-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1654,
+                    "bottom": 1749,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 95
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Defense Criminal Investigative Service\n\n(Department of Defense)\n\n\tDCIS\tServes a…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-72-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,3,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p.rtecenter > a",
+            "boundingRect": {
+              "top": 1848,
+              "bottom": 1863,
+              "left": 418,
+              "right": 580,
+              "width": 162,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usda.gov/oig\">",
+            "nodeLabel": "Office of the Inspector General",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-150-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1845,
+                    "bottom": 1912,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 66
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Office of the Inspector General\n\n(United States Department of Agriculture)\n\n\t\n\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-73-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,3,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p.rtecenter > a",
+            "boundingRect": {
+              "top": 1880,
+              "bottom": 1895,
+              "left": 389,
+              "right": 609,
+              "width": 220,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usda.gov/\">",
+            "nodeLabel": "(United States Department of Agriculture)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-150-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1845,
+                    "bottom": 1912,
+                    "left": 360,
+                    "right": 1153,
+                    "width": 793,
+                    "height": 66
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Office of the Inspector General\n\n(United States Department of Agriculture)\n\n\t\n\n…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 9
+  }
+]

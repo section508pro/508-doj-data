@@ -1,0 +1,73 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-189-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,6,DIV",
+            "selector": "div.block > div > div.field-formatter--text-default > div.usa-accordion",
+            "boundingRect": {
+              "top": 1077,
+              "bottom": 2487,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 1410
+            },
+            "snippet": "<div aria-multiselectable=\"true\" class=\"usa-accordion usa-accordion--bordered\">",
+            "nodeLabel": "Violent Crime\n\nChild Pornography and/or Sexual Exploitation of Children\n\nCivil …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,10,DIV",
+            "selector": "div.block > div > div.field-formatter--text-default > div.usa-accordion",
+            "boundingRect": {
+              "top": 2666,
+              "bottom": 2871,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 206
+            },
+            "snippet": "<div aria-multiselectable=\"true\" class=\"usa-accordion usa-accordion--bordered\">",
+            "nodeLabel": "Discrimination or Civil Rights Violations\n\nComplaints Against DOJ Employees or …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

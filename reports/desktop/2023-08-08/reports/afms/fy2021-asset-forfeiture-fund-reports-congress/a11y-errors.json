@@ -1,0 +1,77 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-57-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,5,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 404,
+              "bottom": 419,
+              "left": 362,
+              "right": 623,
+              "width": 261,
+              "height": 15
+            },
+            "snippet": "<a href=\"/afms/fy2021-equitable-sharing-payment-cash-and-sales-proceeds-recipient-a…\">",
+            "nodeLabel": "Summary of Equitable Sharing Payments by State",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-140-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,5,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 401,
+                    "bottom": 423,
+                    "left": 360,
+                    "right": 1106,
+                    "width": 746,
+                    "height": 22
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Summary of Equitable Sharing Payments by State"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
