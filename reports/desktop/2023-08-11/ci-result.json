@@ -1,0 +1,378 @@
+[
+  {
+    "path": "/",
+    "score": 0.79,
+    "performance": 0.39,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2009-01-09-einstein",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-01-14-polygraph",
+    "score": 0.88,
+    "performance": 0.85,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-04-15-wd-cia-interr-04",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-04-21-reagan-commn",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-05-20-rollback",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-06-01-un-delegs",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-08-14-einstein-reaff",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2022-10-28-PLO-visitation",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about",
+    "score": 0.89,
+    "performance": 0.89,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/fy-2017-budget-and-performance-summary",
+    "score": 0.87,
+    "performance": 0.8,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/fy-2017-congressional-budget-submission",
+    "score": 0.87,
+    "performance": 0.8,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/fy-2017-exhibit-300s",
+    "score": 0.87,
+    "performance": 0.81,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/fy17-budget-fact-sheets",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/history",
+    "score": 0.87,
+    "performance": 0.88,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/history/doj-seal-history-and-motto",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/history/robert-f-kennedy-main-justice-department-building",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/accessibility/accessibility-information",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/actioncenter/find-help-and-information-crime-victims",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/actioncenter/identify-our-most-wanted-fugitives",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/actioncenter/locate-prison-inmate-or-sex-offender",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/actioncenter/register-apply-permits-or-request-records",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/actioncenter/report-crime",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/actioncenter/submit-complaint",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/asset-forfeiture-administrative-support-services-afass",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/asset-forfeiture-investigative-support-services-afiss",
+    "score": 0.91,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/asset-forfeiture-program-afp-contract-information",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/assets-forfeiture-fund-aff",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/fy2020-equitable-sharing-payment-cash-and-sales-proceeds-recipient-agency-state",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/fy2021-equitable-sharing-payment-cash-and-sales-proceeds-recipient-agency-state",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/fy2022-asset-forfeiture-fund-reports-congress",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/NDALInterships",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/Opposition to Motion for Stay Pending Appeal - United States v. City of Los Angeles, Board of Police Commissioners",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/Response as Intervenor to Petition for Rehearing En Banc - Siler-Khodr v. University of Texas Health Science Center",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/United States v. Dukes Brief as Appellee",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/USAO-CT/CT-22-007",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/USAO-CT/CT-22-008",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/USAO-NDTX/DV",
+    "score": 0.86,
+    "performance": 0.77,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/Andrew-B-Birge",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2021_1209_PSN",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0124_Trotter",
+    "score": 0.83,
+    "performance": 0.65,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0126_Amazon_Textbook_Fraud",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0201_Marshall",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0228_Boden",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0411_Horning",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0511_National_Police_Week",
+    "score": 0.83,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0630_Hicks",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  }
+]
