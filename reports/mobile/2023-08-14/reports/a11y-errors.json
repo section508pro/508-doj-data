@@ -1,0 +1,189 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "55-180-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV",
+            "selector": "div.field__items > div.slick-list > div.slick-track > div#slick-slide03",
+            "boundingRect": {
+              "top": 271,
+              "bottom": 729,
+              "left": -402,
+              "right": 10,
+              "width": 412,
+              "height": 458
+            },
+            "snippet": "<div class=\"field__item slick-slide\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"0\" role=\"tabpanel\" id=\"slick-slide03\" aria-describedby=\"slick-slide-control03\" style=\"width: 412px;\">",
+            "nodeLabel": "PRESS RELEASE\nBitfinex Hacker and Wife Plead Guilty to Money Laundering Conspir…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "55-42-A",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,0,A",
+                  "selector": "div#slick-slide03 > article > div.hero-wrapper > a",
+                  "boundingRect": {
+                    "top": 271,
+                    "bottom": 452,
+                    "left": -402,
+                    "right": 10,
+                    "width": 412,
+                    "height": 181
+                  },
+                  "snippet": "<a href=\"https://www.justice.gov/opa/pr/bitfinex-hacker-and-wife-plead-guilty-money…\" tabindex=\"0\">",
+                  "nodeLabel": "Department of Justice Seal"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "55-43-A",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,1,DIV,1,H2,0,DIV,0,DIV,0,A",
+                  "selector": "h2 > div > div.field-formatter--link > a",
+                  "boundingRect": {
+                    "top": 549,
+                    "bottom": 663,
+                    "left": -382,
+                    "right": -6,
+                    "width": 376,
+                    "height": 114
+                  },
+                  "snippet": "<a href=\"https://www.justice.gov/opa/pr/bitfinex-hacker-and-wife-plead-guilty-money…\" tabindex=\"0\">",
+                  "nodeLabel": "Bitfinex Hacker and Wife Plead Guilty to Money Laundering Conspiracy Involving …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "55-181-UL",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV,1,DIV,0,UL",
+            "selector": "div > div.most-wanted-view > div.item-list > ul.slick-initialized",
+            "boundingRect": {
+              "top": 6288,
+              "bottom": 7000,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 712
+            },
+            "snippet": "<ul class=\"slick-initialized slick-slider slick-dotted\">",
+            "nodeLabel": "Donald Eugene Fields Ii\nFBI Field Office: St. Louis\nWanted For: Donald Eugene F…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "55-182-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.most-wanted-view > div.item-list > ul.slick-initialized > div.slick-list",
+                  "boundingRect": {
+                    "top": 6288,
+                    "bottom": 6955,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 667
+                  },
+                  "snippet": "<div class=\"slick-list draggable\">",
+                  "nodeLabel": "Donald Eugene Fields Ii\nFBI Field Office: St. Louis\nWanted For: Donald Eugene F…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "55-183-UL",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV,1,DIV,0,UL,1,UL",
+                  "selector": "div.most-wanted-view > div.item-list > ul.slick-initialized > ul.slick-dots",
+                  "boundingRect": {
+                    "top": 6955,
+                    "bottom": 7000,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 45
+                  },
+                  "snippet": "<ul class=\"slick-dots\" style=\"\" role=\"tablist\">",
+                  "nodeLabel": "123456789101112"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

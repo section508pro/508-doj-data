@@ -1,0 +1,73 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.block-body > div > div.field-formatter--text-default > div.usa-accordion",
+            "boundingRect": {
+              "top": 1395,
+              "bottom": 2461,
+              "left": 48,
+              "right": 364,
+              "width": 316,
+              "height": 1065
+            },
+            "snippet": "<div aria-multiselectable=\"true\" class=\"usa-accordion usa-accordion--bordered\">",
+            "nodeLabel": "DOJ and DOI Announce Joint Listening Session on the Impact of Oklahoma v. Castr…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-179-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,3,DIV",
+            "selector": "div > div.layout > div.layout__region > div.block",
+            "boundingRect": {
+              "top": 3224,
+              "bottom": 3385,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 161
+            },
+            "snippet": "<div class=\"block block-featured_group_content block-layout-builder block-inline-block…\" aria-multiselectable=\"true\">",
+            "nodeLabel": "[Expand All +]\nRelated Content",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

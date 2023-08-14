@@ -1,0 +1,243 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-74-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,20,A",
+            "selector": "div.field__item > ul > li > a",
+            "boundingRect": {
+              "top": 405,
+              "bottom": 420,
+              "left": 401,
+              "right": 431,
+              "width": 30,
+              "height": 15
+            },
+            "snippet": "<a href=\"/oip/fy05.html\">",
+            "nodeLabel": "FY05",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-75-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,22,A",
+            "selector": "div.field__item > ul > li > a",
+            "boundingRect": {
+              "top": 405,
+              "bottom": 420,
+              "left": 440,
+              "right": 469,
+              "width": 30,
+              "height": 15
+            },
+            "snippet": "<a href=\"/oip/fy04.html\">",
+            "nodeLabel": "FY04",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-76-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,24,A",
+            "selector": "div.field__item > ul > li > a",
+            "boundingRect": {
+              "top": 405,
+              "bottom": 420,
+              "left": 479,
+              "right": 508,
+              "width": 30,
+              "height": 15
+            },
+            "snippet": "<a href=\"/oip/fy03.html\">",
+            "nodeLabel": "FY03",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-77-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,26,A",
+            "selector": "div.field__item > ul > li > a",
+            "boundingRect": {
+              "top": 405,
+              "bottom": 420,
+              "left": 517,
+              "right": 547,
+              "width": 30,
+              "height": 15
+            },
+            "snippet": "<a href=\"/oip/fy02.html\">",
+            "nodeLabel": "FY02",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-78-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,28,A",
+            "selector": "div.field__item > ul > li > a",
+            "boundingRect": {
+              "top": 405,
+              "bottom": 420,
+              "left": 556,
+              "right": 586,
+              "width": 30,
+              "height": 15
+            },
+            "snippet": "<a href=\"/oip/fy01.html\">",
+            "nodeLabel": "FY01",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-79-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,30,A",
+            "selector": "div.field__item > ul > li > a",
+            "boundingRect": {
+              "top": 405,
+              "bottom": 420,
+              "left": 595,
+              "right": 624,
+              "width": 30,
+              "height": 15
+            },
+            "snippet": "<a href=\"/oip/fy00.html\">",
+            "nodeLabel": "FY00",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-80-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,32,A",
+            "selector": "div.field__item > ul > li > a",
+            "boundingRect": {
+              "top": 405,
+              "bottom": 420,
+              "left": 634,
+              "right": 663,
+              "width": 30,
+              "height": 15
+            },
+            "snippet": "<a href=\"/oip/fy99.html\">",
+            "nodeLabel": "FY99",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-81-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,34,A",
+            "selector": "div.field__item > ul > li > a",
+            "boundingRect": {
+              "top": 405,
+              "bottom": 420,
+              "left": 672,
+              "right": 702,
+              "width": 30,
+              "height": 15
+            },
+            "snippet": "<a href=\"/oip/fy98.html\">",
+            "nodeLabel": "FY98",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 8
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2-A",
+            "path": "7,HTML,2,BODY,2,SECTION,1,DIV,0,DIV,0,A",
+            "selector": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "boundingRect": {
+              "top": 48,
+              "bottom": 94,
+              "left": 364,
+              "right": 412,
+              "width": 48,
+              "height": 46
+            },
+            "snippet": "<a href=\"#nav\" class=\"meanmenu-reveal\" style=\"background:;color:;right:0;left:auto;\">",
+            "nodeLabel": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

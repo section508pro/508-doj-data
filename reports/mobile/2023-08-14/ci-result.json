@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "/",
+    "score": 0.83,
+    "performance": 0.58,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.93
+  },
+  {
+    "path": "/about",
+    "score": 0.9,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/about/fy-2017-budget-and-performance-summary",
+    "score": 0.9,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/about/fy-2017-congressional-budget-submission",
+    "score": 0.9,
+    "performance": 0.9,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/about/fy-2017-exhibit-300s",
+    "score": 0.86,
+    "performance": 0.8,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/fy17-budget-fact-sheets",
+    "score": 0.85,
+    "performance": 0.91,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/accessibility/accessibility-information",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/action-center",
+    "score": 0.9,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/action-center/find-help-and-information-crime-victims",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/action-center/identify-our-most-wanted-fugitives",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/action-center/locate-prison-inmate-or-sex-offender",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/action-center/register-apply-permits-or-request-records",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/action-center/report-and-identify-missing-persons",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/action-center/report-crime-or-submit-complaint",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/action-center/report-spam",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ag",
+    "score": 0.86,
+    "performance": 0.9,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ag/historical-bios",
+    "score": 0.83,
+    "performance": 0.9,
+    "accessibility": 0.78,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/ag/news",
+    "score": 0.85,
+    "performance": 0.85,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ag/oag-freedom-information-act",
+    "score": 0.86,
+    "performance": 0.9,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ag/select-publications",
+    "score": 0.86,
+    "performance": 0.9,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ag/staff-profile/meet-attorney-general",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.88,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/agencies/alphabetical-listing-components-programs-initiatives",
+    "score": 0.87,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 0.67,
+    "seo": 0.86
+  },
+  {
+    "path": "/agencies/chart",
+    "score": 0.87,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 0.67,
+    "seo": 0.86
+  },
+  {
+    "path": "/agencies/chart/grid",
+    "score": 0.89,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.86
+  },
+  {
+    "path": "/agencies/chart/map",
+    "score": 0.85,
+    "performance": 0.96,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.79
+  },
+  {
+    "path": "/agencies/organizational-chart-text-version",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/archive/911/",
+    "score": 0.83,
+    "performance": 0.98,
+    "accessibility": 0.96,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/civil/",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "best-practices": 0.67,
+    "seo": 0.88
+  },
+  {
+    "path": "/archive/cjs/index.html",
+    "score": 0.82,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/dag/cftf/",
+    "score": 0.82,
+    "performance": 0.99,
+    "accessibility": 0.91,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/doj-espanol/index.html",
+    "score": 0.82,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/fbci/index.html",
+    "score": 0.79,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 0.58,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/index-amerithrax.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/index-atr.html",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.9
+  },
+  {
+    "path": "/archive/index-cdr.html",
+    "score": 0.82,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/index-enron.html",
+    "score": 0.83,
+    "performance": 0.98,
+    "accessibility": 0.96,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/index-fcsc.html",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.67,
+    "seo": 0.88
+  },
+  {
+    "path": "/archive/index-oarm.html",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.67,
+    "seo": 0.88
+  },
+  {
+    "path": "/archive/iraq/index.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.95,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archive/ll/index.html",
+    "score": 0.8,
+    "performance": 1,
+    "accessibility": 0.73,
+    "best-practices": 0.83,
+    "seo": 0.62
+  },
+  {
+    "path": "/archive/ofdt/index.html",
+    "score": 0.82,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/archives/atj",
+    "score": 0.73,
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "best-practices": 0.67,
+    "seo": 0.75
+  },
+  {
+    "path": "/archives/blog-archive",
+    "score": 0.87,
+    "performance": 0.85,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/community-relations-service-publications-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/criminal/criminal-division-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/crt-fdny",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/archives/crt-njcsc",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/crt/civil-rights-division-archive",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.91
+  },
+  {
+    "path": "/archives/dec",
+    "score": 0.86,
+    "performance": 0.89,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.9
+  },
+  {
+    "path": "/archives/defendingchildhood",
+    "score": 0.81,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.9
+  },
+  {
+    "path": "/archives/doj-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.91
+  },
+  {
+    "path": "/archives/doj/archived-departmental-events",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.9
+  },
+  {
+    "path": "/archives/doj/information-employees-during-lapse-appropriations-december-2018",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/doj/publications-documents",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/enrd/environment-and-natural-resources-division-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/hatecrimes/hate-crimes-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/jmd/information-employees-during-lapse-appropriations-december-2018",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/jmd/justice-management-division-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/nsd/national-security-division-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/oip/office-information-policy-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.9
+  },
+  {
+    "path": "/archives/ola/office-legislative-affairs-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/olp/office-legal-policy-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/opa/office-public-affairs-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/opa/podcast-archive",
+    "score": 0.88,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.91
+  },
+  {
+    "path": "/archives/opcl/office-privacy-and-civil-liberties-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/open/open-government-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.87
+  },
+  {
+    "path": "/archives/opioidawareness/heroin-opioid-awareness-week",
+    "score": 0.88,
+    "performance": 0.89,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/opr/office-professional-responsibility-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/otj/office-tribal-justice-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/ovw/office-violence-against-women-archive",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.9
+  },
+  {
+    "path": "/archives/pardon/office-pardon-attorney-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.88
+  },
+  {
+    "path": "/archives/tribal/tribal-justice-and-safety-archives",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.87
+  },
+  {
+    "path": "/archives/uspc/united-states-parole-commission-archive",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/archives/ust/us-trustee-program-archives",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/asg",
+    "score": 0.81,
+    "performance": 0.68,
+    "accessibility": 0.88,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/atj",
+    "score": 0.85,
+    "performance": 0.79,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/atr",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.94,
+    "best-practices": 0.83,
+    "seo": 0.77
+  },
+  {
+    "path": "/blogs",
+    "score": 0.87,
+    "performance": 0.84,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/careers",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/careers/disability-hiring",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/careers/veteran-recruitment",
+    "score": 0.77,
+    "performance": 0.68,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.74
+  },
+  {
+    "path": "/civil",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/contact-us",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/coronavirus",
+    "score": 0.86,
+    "performance": 0.89,
+    "accessibility": 0.85,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/criminal",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.82
+  },
+  {
+    "path": "/criminal-ceos/extraterritorial-sexual-exploitation-children",
+    "score": 0.83,
+    "performance": 0.91,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.74
+  },
+  {
+    "path": "/criminal-ceos/international-parental-kidnapping",
+    "score": 0.81,
+    "performance": 0.91,
+    "accessibility": 0.83,
+    "best-practices": 0.75,
+    "seo": 0.74
+  },
+  {
+    "path": "/criminal-fraud/report-fraud",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/criminal/ceos/index.html",
+    "score": 0.83,
+    "performance": 0.91,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.74
+  },
+  {
+    "path": "/criminal/fraud/internet/",
+    "score": 0.83,
+    "performance": 0.91,
+    "accessibility": 0.9,
+    "best-practices": 0.67,
+    "seo": 0.83
+  },
+  {
+    "path": "/criminal/vns/",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/criminal/vns/caseup/",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.84
+  },
+  {
+    "path": "/crs",
+    "score": 0.82,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 0.67,
+    "seo": 0.76
+  },
+  {
+    "path": "/crt",
+    "score": 0.88,
+    "performance": 0.88,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/crt/availability-language-assistance-services",
+    "score": 0.9,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/dag",
+    "score": 0.85,
+    "performance": 0.85,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/disaster-fraud",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/disaster-fraud/about-national-center-disaster-fraud",
+    "score": 0.86,
+    "performance": 0.89,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/disaster-fraud/ncdf-disaster-complaint-form",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/doj/budget-and-performance",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/doj/doj-strategic-plan/doj-strategic-plan-2022-2026",
+    "score": 0.83,
+    "performance": 0.86,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.86
+  },
+  {
+    "path": "/doj/fy-2016-annual-performance-report-fy-2018-annual-performance-plan",
+    "score": 0.88,
+    "performance": 0.84,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/doj/fy-2017-agency-financial-report",
+    "score": 0.89,
+    "performance": 0.85,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/doj/privacy-policy",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/doj/reducing-gun-violence",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/doj/webform/your-message-department-justice-webmaster",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/elderjustice",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/elderjustice/find-support-elder-abuse",
+    "score": 0.83,
+    "performance": 0.89,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.82
+  },
+  {
+    "path": "/elderjustice/support/",
+    "score": 0.83,
+    "performance": 0.88,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.82
+  },
+  {
+    "path": "/employees",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/enrd",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.75
+  },
+  {
+    "path": "/enrd/environmental-crime-victim-assistance",
+    "score": 0.84,
+    "performance": 0.9,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.82
+  },
+  {
+    "path": "/eoir",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.75
+  },
+  {
+    "path": "/eoir/customer-service-initiatives",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/equity",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/espanol",
+    "score": 0.86,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.82
+  },
+  {
+    "path": "/evidence-and-evaluation",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/fcsc",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/front",
+    "score": 0.83,
+    "performance": 0.59,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.93
+  },
+  {
+    "path": "/grants",
+    "score": 0.88,
+    "performance": 0.97,
+    "accessibility": 0.92,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/guidance",
+    "score": 0.74,
+    "performance": 0.32,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/hatecrimes",
+    "score": 0.86,
+    "performance": 0.87,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/hatecrimes-espanol/consiga-ayuda-ahora",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/history",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/history/timeline-event/bureau-justice-statistics",
+    "score": 0.85,
+    "performance": 0.91,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/humantrafficking",
+    "score": 0.83,
+    "performance": 0.77,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/information-quality",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/information-victims-large-cases",
+    "score": 0.87,
+    "performance": 0.87,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/interpol-washington",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.93
+  },
+  {
+    "path": "/jm/justice-manual",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/jmd",
+    "score": 0.86,
+    "performance": 0.89,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/jmd/eeo-program-status-report",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.81
+  },
+  {
+    "path": "/largecases",
+    "score": 0.87,
+    "performance": 0.87,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/legal-careers",
+    "score": 0.79,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.75,
+    "seo": 0.69
+  },
+  {
+    "path": "/legalpolicies",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/news",
+    "score": 0.87,
+    "performance": 0.84,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/nsd",
+    "score": 0.85,
+    "performance": 0.76,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/nsd-ovt",
+    "score": 0.86,
+    "performance": 0.87,
+    "accessibility": 0.88,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/oarm",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/ocdetf",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/oej",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.94,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/oip",
+    "score": 0.81,
+    "performance": 0.7,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.79
+  },
+  {
+    "path": "/ola",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ola/congressional-testimony",
+    "score": 0.9,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/olc",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/olp",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/olp/lawful-access",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/opa/galleries",
+    "score": 0.82,
+    "performance": 0.67,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/pr/administrator-bulletproof-webhosting-domain-charged-connection-facilitation-netwalker",
+    "score": 0.87,
+    "performance": 0.86,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/pr/appointment-special-counsel-2",
+    "score": 0.87,
+    "performance": 0.86,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/pr/former-leader-clan-del-golfo-drug-trafficking-organization-sentenced-45-years-prison",
+    "score": 0.85,
+    "performance": 0.86,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/opa/pr/former-oklahoma-police-officer-indicted-sexual-assault-and-obstruction",
+    "score": 0.87,
+    "performance": 0.86,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/pr/former-tennessee-state-senator-and-co-conspirator-sentenced-campaign-finance-scheme",
+    "score": 0.87,
+    "performance": 0.86,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/pr/man-pleads-guilty-sending-bomb-threat-arizona-state-election-official",
+    "score": 0.87,
+    "performance": 0.86,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/speech/attorney-general-merrick-b-garland-delivers-statement",
+    "score": 0.88,
+    "performance": 0.88,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/video/attorney-general-merrick-b-garland-announces-appointment-special-counsel-0",
+    "score": 0.87,
+    "performance": 0.84,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/video/attorney-general-merrick-b-garland-delivers-remarks-justice-departments-annual-tribal",
+    "score": 0.85,
+    "performance": 0.86,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.86
+  },
+  {
+    "path": "/opa/video/justice-department-announces-pattern-or-practice-investigation-city-memphis-and-memphis",
+    "score": 0.85,
+    "performance": 0.86,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.86
+  },
+  {
+    "path": "/opcl",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/open",
+    "score": 0.87,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/open/language-access",
+    "score": 0.87,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/open/plain-writing-act",
+    "score": 0.87,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opioidawareness",
+    "score": 0.8,
+    "performance": 0.72,
+    "accessibility": 0.85,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/opr",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/opr/about-opr",
+    "score": 0.9,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/opr/submit-professional-misconduct-complaint",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/organization-mission-and-functions-manual",
+    "score": 0.83,
+    "performance": 0.86,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.86
+  },
+  {
+    "path": "/osdbu",
+    "score": 0.86,
+    "performance": 0.9,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/osg",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.75
+  },
+  {
+    "path": "/otj",
+    "score": 0.88,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/our-work",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ovw",
+    "score": 0.82,
+    "performance": 0.6,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ovw/domestic-violence",
+    "score": 0.88,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/pardon",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.75
+  },
+  {
+    "path": "/podcasts",
+    "score": 0.83,
+    "performance": 0.78,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.86
+  },
+  {
+    "path": "/prao",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/psc",
+    "score": 0.88,
+    "performance": 0.9,
+    "accessibility": 0.92,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/psn",
+    "score": 0.87,
+    "performance": 0.94,
+    "accessibility": 0.85,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/publications",
+    "score": 0.89,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.81
+  },
+  {
+    "path": "/resources",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/sco-durham",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/sco-hur",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/sco-smith",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/servicemembers",
+    "score": 0.86,
+    "performance": 0.9,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/social",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/social-media",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/tax",
+    "score": 0.88,
+    "performance": 0.89,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/tribal",
+    "score": 0.85,
+    "performance": 0.86,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/tribal/mmip",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/usao",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/usao-dc/capitol-breach-cases",
+    "score": 0.8,
+    "performance": 0.74,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.78
+  },
+  {
+    "path": "/usao/districts/",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.94,
+    "best-practices": 0.83,
+    "seo": 0.79
+  },
+  {
+    "path": "/uspc",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/uspc/bop-hearing-schedule",
+    "score": 0.91,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/uspc/victim-witness-program",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 0.94,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/ust",
+    "score": 0.85,
+    "performance": 0.89,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.76
+  },
+  {
+    "path": "/videos",
+    "score": 0.83,
+    "performance": 0.7,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/voting",
+    "score": 0.87,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.86
+  },
+  {
+    "path": "/vtatf",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.85,
+    "best-practices": 0.83,
+    "seo": 0.86
+  }
+]

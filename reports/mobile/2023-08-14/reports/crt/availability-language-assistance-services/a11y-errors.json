@@ -1,0 +1,225 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-110-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,2,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 1914,
+              "bottom": 1929,
+              "left": 16,
+              "right": 360,
+              "width": 344,
+              "height": 15
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlapara.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "توافر خدمات المساعدة اللغوية – قسم الحقوق المدنية   (Arabic)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-111-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,4,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 1938,
+              "bottom": 1953,
+              "left": 16,
+              "right": 182,
+              "width": 166,
+              "height": 15
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlapsch.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "语言协助服务现成可用   (Simplified Chinese)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,6,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 1962,
+              "bottom": 1977,
+              "left": 16,
+              "right": 184,
+              "width": 168,
+              "height": 15
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlaptch.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "語言協助服務現成可用   (Traditional Chinese)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-113-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,8,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 1986,
+              "bottom": 2025,
+              "left": 16,
+              "right": 367,
+              "width": 351,
+              "height": 39
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlapfil.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "Magagamit na Mga Paglilingkod Ukol sa Tulong na Pangwikain — Sangay sa Mga Kara…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-114-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,10,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 2034,
+              "bottom": 2049,
+              "left": 16,
+              "right": 297,
+              "width": 281,
+              "height": 15
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlapfre.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "Disponibilité de services d'aide linguistique   (French)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-115-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,12,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 2058,
+              "bottom": 2073,
+              "left": 16,
+              "right": 157,
+              "width": 141,
+              "height": 15
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlapkor.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "[언어 지원 서비스 이용 – 인권국   (Korean)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-116-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,14,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 2082,
+              "bottom": 2121,
+              "left": 16,
+              "right": 376,
+              "width": 360,
+              "height": 39
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlappor.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "Disponibilidade de Serviços de Assistência Linguística – Divisão dos Direitos C…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-117-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,16,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 2130,
+              "bottom": 2145,
+              "left": 16,
+              "right": 378,
+              "width": 362,
+              "height": 15
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlaprus.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "Управление по делам о нарушениях гражданских прав   (Russian)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-118-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,18,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 2154,
+              "bottom": 2169,
+              "left": 16,
+              "right": 345,
+              "width": 329,
+              "height": 15
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlapspan.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "Disponibilidad de servicios de asistencia lingüística   (Spanish)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-119-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,DIV,7,P,20,A",
+            "selector": "div > div.field-formatter--text-default > p > a",
+            "boundingRect": {
+              "top": 2178,
+              "bottom": 2193,
+              "left": 16,
+              "right": 339,
+              "width": 323,
+              "height": 15
+            },
+            "snippet": "<a href=\"/crt/about/cor/documents/crtlapvie.pdf\" style=\"color: rgb(166, 130, 75); font-family: Georgia, Palatino, &quot;Palatino Linoty…&quot;;\">",
+            "nodeLabel": "Sự Sẵn Sàng của Dịch Vụ Hỗ Trợ Ngôn Ngữ   (Vietnamese)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #a6824b, background color: #fefdf9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

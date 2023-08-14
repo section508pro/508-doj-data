@@ -1,0 +1,287 @@
+[
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-196-DD",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,26,DIV,0,DL,1,DD",
+            "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a1",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<dd id=\"a1\">",
+            "nodeLabel": "\n\tA parole hearing is a hearing to determine whether an inmate should be releas…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: a1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-197-DD",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,28,DIV,0,DL,1,DD",
+                  "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a1",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<dd id=\"a1\">",
+                  "nodeLabel": "\n\tOnce sentenced, the inmate is transferred to a Bureau of Prisons (BOP) instit…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-DD",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,26,DIV,0,DL,3,DD",
+            "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a2",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<dd id=\"a2\">",
+            "nodeLabel": "\n\tOnly victims, victims' next-of-kin, or immediate family members may attend pa…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: a2"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-199-DD",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,28,DIV,0,DL,3,DD",
+                  "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a2",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<dd id=\"a2\">",
+                  "nodeLabel": "\n\tEducational and vocational programs are available to inmates. An inmate may o…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-DD",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,26,DIV,0,DL,5,DD",
+            "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a3",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<dd id=\"a3\">",
+            "nodeLabel": "\n\tThe best way to ensure that you will receive notice of parole hearings is to …",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: a3"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-201-DD",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,28,DIV,0,DL,5,DD",
+                  "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a3",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<dd id=\"a3\">",
+                  "nodeLabel": "\n\tMedical parole is a provision of District of Columbia law that allows the Par…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-202-DD",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,26,DIV,0,DL,7,DD",
+            "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a4",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<dd id=\"a4\">",
+            "nodeLabel": "\n\tA victim may appear in person at the institution where an inmate is confined …",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: a4"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-203-DD",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,28,DIV,0,DL,7,DD",
+                  "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a4",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<dd id=\"a4\">",
+                  "nodeLabel": "\n\tThe Commission may terminate the supervision of a parolee before the end of t…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-204-DD",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,26,DIV,0,DL,9,DD",
+            "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a5",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<dd id=\"a5\">",
+            "nodeLabel": "\n\tVictims or witnesses who have been subpoenaed to testify at U.S. Parole Commi…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: a5"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-205-DD",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,28,DIV,0,DL,9,DD",
+                  "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a5",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<dd id=\"a5\">",
+                  "nodeLabel": "\n\tWhen a parolee is arrested on charges of violating the conditions of parole, …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-206-DD",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,26,DIV,0,DL,11,DD",
+            "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a6",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<dd id=\"a6\">",
+            "nodeLabel": "\n\tVictims and witnesses will be notified, upon request, of the outcome of the h…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: a6"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-207-DD",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,28,DIV,0,DL,11,DD",
+                  "selector": "div.ag-bottom-left > div.ckeditor-accordion-container > dl.styled > dd#a6",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<dd id=\"a6\">",
+                  "nodeLabel": "\n\tSupervised release is a period of community supervision following a D.C. offe…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

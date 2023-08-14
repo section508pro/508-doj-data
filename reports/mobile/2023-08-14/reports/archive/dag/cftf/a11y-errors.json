@@ -1,0 +1,676 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-22-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3446,
+              "bottom": 3458,
+              "left": 710,
+              "right": 747,
+              "width": 37,
+              "height": 12
+            },
+            "snippet": "<a href=\"https://www.justice.gov/archives/doj/department-justice-archive\">",
+            "nodeLabel": "Archive",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-23-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,1,TD,1,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3461,
+              "bottom": 3473,
+              "left": 710,
+              "right": 770,
+              "width": 60,
+              "height": 12
+            },
+            "snippet": "<a href=\"/01whatsnew/accessibility_info.htm\">",
+            "nodeLabel": "Accessibility",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-24-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,1,TD,2,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3476,
+              "bottom": 3488,
+              "left": 710,
+              "right": 781,
+              "width": 71,
+              "height": 12
+            },
+            "snippet": "<a href=\"javascript:exitWinOpen('http://get.adobe.com/reader/otherversions/');\">",
+            "nodeLabel": "Adobe Reader",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-25-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,1,TD,3,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3491,
+              "bottom": 3503,
+              "left": 710,
+              "right": 736,
+              "width": 26,
+              "height": 12
+            },
+            "snippet": "<a href=\"/oip/\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-26-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,1,TD,4,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3506,
+              "bottom": 3518,
+              "left": 710,
+              "right": 775,
+              "width": 65,
+              "height": 12
+            },
+            "snippet": "<a href=\"/jmd/eeos/nofear.htm\">",
+            "nodeLabel": "No FEAR Act",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-27-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,1,TD,5,DIV,0,A",
+            "selector": "tr > td > div.footerlinks > a",
+            "boundingRect": {
+              "top": 3521,
+              "bottom": 3533,
+              "left": 710,
+              "right": 802,
+              "width": 92,
+              "height": 12
+            },
+            "snippet": "<a href=\"/iqpr/iqpr.html\">",
+            "nodeLabel": "Information Quality",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-28-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,1,TD,6,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3538,
+              "bottom": 3550,
+              "left": 710,
+              "right": 778,
+              "width": 68,
+              "height": 12
+            },
+            "snippet": "<a href=\"/privacy-file.htm\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-29-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,1,TD,7,DIV,0,A",
+            "selector": "tr > td > div.footerlinks > a",
+            "boundingRect": {
+              "top": 3553,
+              "bottom": 3576,
+              "left": 710,
+              "right": 788,
+              "width": 78,
+              "height": 23
+            },
+            "snippet": "<a href=\"/legalpolicies.htm\">",
+            "nodeLabel": "Legal Policies & Disclaimers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-30-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3446,
+              "bottom": 3458,
+              "left": 849,
+              "right": 912,
+              "width": 63,
+              "height": 12
+            },
+            "snippet": "<a href=\"/social\">",
+            "nodeLabel": "Social Media",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-31-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,3,TD,1,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3461,
+              "bottom": 3473,
+              "left": 849,
+              "right": 923,
+              "width": 74,
+              "height": 12
+            },
+            "snippet": "<a href=\"/employees/index.html\">",
+            "nodeLabel": "For Employees",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-32-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,3,TD,2,DIV,0,A",
+            "selector": "tr > td > div.footerlinks > a",
+            "boundingRect": {
+              "top": 3476,
+              "bottom": 3499,
+              "left": 849,
+              "right": 956,
+              "width": 107,
+              "height": 23
+            },
+            "snippet": "<a href=\"/oig/\">",
+            "nodeLabel": "Office of the Inspector General",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-33-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,3,TD,3,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3504,
+              "bottom": 3516,
+              "left": 849,
+              "right": 911,
+              "width": 62,
+              "height": 12
+            },
+            "snippet": "<a href=\"/open/plainlanguage.html\">",
+            "nodeLabel": "Plain Writing",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-34-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,3,TD,4,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3519,
+              "bottom": 3531,
+              "left": 849,
+              "right": 892,
+              "width": 43,
+              "height": 12
+            },
+            "snippet": "<a href=\"http://www.usa.gov/\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-35-A",
+            "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE,0,TBODY,1,TR,3,TD,5,DIV,0,A",
+            "selector": "tr > td > div.footerlinksbreak > a",
+            "boundingRect": {
+              "top": 3534,
+              "bottom": 3546,
+              "left": 849,
+              "right": 916,
+              "width": 67,
+              "height": 12
+            },
+            "snippet": "<a href=\"http://business.usa.gov/\">",
+            "nodeLabel": "BusinessUSA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #999999, background color: #333333, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-81-TABLE",
+                  "path": "1,HTML,1,BODY,4,A,0,DIV,0,TABLE,0,TBODY,0,TR,2,TD,0,TABLE",
+                  "selector": "tbody > tr > td > table",
+                  "boundingRect": {
+                    "top": 3404,
+                    "bottom": 3606,
+                    "left": 695,
+                    "right": 973,
+                    "width": 278,
+                    "height": 202
+                  },
+                  "snippet": "<table width=\"100%\" border=\"0\" bgcolor=\"#333333\" cellspacing=\"0\" cellpadding=\"4\">",
+                  "nodeLabel": "\n \t\nArchive\nAccessibility\nAdobe Reader\nFOIA\nNo FEAR Act\nInformation Quality\nPri…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 14
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-82-HTML",
+            "path": "1,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 3638,
+              "left": 0,
+              "right": 980,
+              "width": 980,
+              "height": 3638
+            },
+            "snippet": "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The xml:lang attribute is not valid on HTML pages, use the lang attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

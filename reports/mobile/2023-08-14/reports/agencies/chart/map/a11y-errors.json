@@ -1,0 +1,151 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-116-AREA",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,2,DIV,3,DIV,0,DIV,3,MAP,2,AREA",
+            "selector": "div.image-map-wrapper > div.mapify-holder > map#org-chart-map > area#tip_OSG2",
+            "boundingRect": {
+              "top": 1050,
+              "bottom": 1050,
+              "left": 16,
+              "right": 16,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<area shape=\"poly\" coords=\"-3.1404958677685952,77.33306234413965,-3.1404958677685952,98.1384039900249…\" href=\"/OSG\" alt=\"Office of the Solicitor General \" id=\"tip_OSG2\" data-coords-default=\"-8,197,-8,250,148,250,148,197\" data-coords=\"-0.8264462809917356,24.56359102244389,-0.8264462809917356,31.1720698254364…\" style=\"outline: none;\">",
+            "nodeLabel": "Office of the Solicitor General ",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: tip_OSG2"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-117-AREA",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,2,DIV,3,DIV,0,DIV,3,MAP,3,AREA",
+                  "selector": "div.image-map-wrapper > div.mapify-holder > map#org-chart-map > area#tip_OSG2",
+                  "boundingRect": {
+                    "top": 1050,
+                    "bottom": 1050,
+                    "left": 16,
+                    "right": 16,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<area shape=\"poly\" coords=\"7.458677685950414,104.81181546134661,7.458677685950414,124.83204987531171,…\" href=\"/OSG\" alt=\"Office of the Solicitor General \" id=\"tip_OSG2\" data-coords-default=\"19,267,19,318,130,318,130,267\" data-coords=\"1.962809917355372,33.29177057356608,1.962809917355372,39.65087281795511,13…\" style=\"outline: none;\">",
+                  "nodeLabel": "Office of the Solicitor General "
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-118-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,2,DIV,3,DIV,0,DIV,0,IMG",
+            "selector": "div > div.image-map-wrapper > div.mapify-holder > img.mapify-img",
+            "boundingRect": {
+              "top": 736,
+              "bottom": 1050,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 315
+            },
+            "snippet": "<img class=\"mapify-img\" src=\"https://www.justice.gov/d9/2022-11/doj-org-chart-102822.jpg\">",
+            "nodeLabel": "div > div.image-map-wrapper > div.mapify-holder > img.mapify-img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-119-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,2,DIV,3,DIV,0,DIV,2,DIV,0,IMG",
+            "selector": "div.image-map-wrapper > div.mapify-holder > div.mapify-imgHolder > img.mapify",
+            "boundingRect": {
+              "top": 736,
+              "bottom": 1050,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 315
+            },
+            "snippet": "<img usemap=\"#org-chart-map\" typeof=\"foaf:Image\" src=\"https://www.justice.gov/d9/2022-11/doj-org-chart-102822.jpg\" width=\"968\" height=\"802\" class=\"mapify\" style=\"opacity: 0;\">",
+            "nodeLabel": "div.image-map-wrapper > div.mapify-holder > div.mapify-imgHolder > img.mapify",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

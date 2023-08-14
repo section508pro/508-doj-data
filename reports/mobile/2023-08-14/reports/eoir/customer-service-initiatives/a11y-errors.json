@@ -1,0 +1,259 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-82-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,3,DIV,1,DIV,0,DIV,2,A",
+            "selector": "div#block-doj-page-helpful-doj-page-helpful-block > div.block__content > div#page-helpful > a#helpful-yes",
+            "boundingRect": {
+              "top": 1360,
+              "bottom": 1375,
+              "left": 177,
+              "right": 196,
+              "width": 19,
+              "height": 15
+            },
+            "snippet": "<a id=\"helpful-yes\" tabindex=\"0\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Yes",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.82 (foreground color: #8c6e20, background color: #ede4d8, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-161-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.view-content > div.views-row > div.panelizer-view-mode > div.panel-pane",
+                  "boundingRect": {
+                    "top": 1310,
+                    "bottom": 1566,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 256
+                  },
+                  "snippet": "<div class=\"panel-pane pane-fieldable-panels-pane pane-current-53316 pane-bundle-image…\">",
+                  "nodeLabel": "Access EOIR"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-83-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,3,DIV,1,DIV,0,DIV,3,A",
+            "selector": "div#block-doj-page-helpful-doj-page-helpful-block > div.block__content > div#page-helpful > a#helpful-no",
+            "boundingRect": {
+              "top": 1360,
+              "bottom": 1375,
+              "left": 219,
+              "right": 235,
+              "width": 16,
+              "height": 15
+            },
+            "snippet": "<a id=\"helpful-no\" tabindex=\"0\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "No",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.82 (foreground color: #8c6e20, background color: #ede4d8, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-161-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.view-content > div.views-row > div.panelizer-view-mode > div.panel-pane",
+                  "boundingRect": {
+                    "top": 1310,
+                    "bottom": 1566,
+                    "left": 13,
+                    "right": 399,
+                    "width": 386,
+                    "height": 256
+                  },
+                  "snippet": "<div class=\"panel-pane pane-fieldable-panels-pane pane-current-53316 pane-bundle-image…\">",
+                  "nodeLabel": "Access EOIR"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-89-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.rtecenter > a",
+            "boundingRect": {
+              "top": 1926,
+              "bottom": 1959,
+              "left": 33,
+              "right": 110,
+              "width": 78,
+              "height": 33
+            },
+            "snippet": "<a href=\"/eoir/find-legal-representation\">",
+            "nodeLabel": "Find Legal\nRepresentation",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-162-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1922,
+                    "bottom": 1965,
+                    "left": 26,
+                    "right": 206,
+                    "width": 180,
+                    "height": 43
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Find Legal\nRepresentation\tSubmit a\nComplaint"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-90-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR,1,TD,0,A",
+            "selector": "tbody > tr > td.rtecenter > a",
+            "boundingRect": {
+              "top": 1926,
+              "bottom": 1959,
+              "left": 134,
+              "right": 189,
+              "width": 55,
+              "height": 33
+            },
+            "snippet": "<a href=\"/eoir/submit-complaint\">",
+            "nodeLabel": "Submit a\nComplaint",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-162-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1922,
+                    "bottom": 1965,
+                    "left": 26,
+                    "right": 206,
+                    "width": 180,
+                    "height": 43
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Find Legal\nRepresentation\tSubmit a\nComplaint"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2-A",
+            "path": "7,HTML,2,BODY,2,SECTION,1,DIV,0,DIV,0,A",
+            "selector": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "boundingRect": {
+              "top": 48,
+              "bottom": 94,
+              "left": 364,
+              "right": 412,
+              "width": 48,
+              "height": 46
+            },
+            "snippet": "<a href=\"#nav\" class=\"meanmenu-reveal\" style=\"background:;color:;right:0;left:auto;\">",
+            "nodeLabel": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
