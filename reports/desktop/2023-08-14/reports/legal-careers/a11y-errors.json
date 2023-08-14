@@ -1,0 +1,184 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,SPAN,0,A,1,SPAN",
+            "selector": "div.views-field > span.field-content > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1365,
+              "bottom": 1377,
+              "left": 1065,
+              "right": 1077,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,0,DIV,1,DIV,1,DIV,4,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,P,2,A,1,SPAN",
+            "selector": "div.field__item > p > a.mailto > span.mailto",
+            "boundingRect": {
+              "top": 1571,
+              "bottom": 1586,
+              "left": 1067,
+              "right": 1079,
+              "width": 12,
+              "height": 15
+            },
+            "snippet": "<span class=\"mailto\" aria-label=\"(link sends e-mail)\">",
+            "nodeLabel": "(link sends e-mail)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-IMG",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,0,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+            "selector": "div.field > div.field__items > div.field__item > img",
+            "boundingRect": {
+              "top": 1015,
+              "bottom": 1060,
+              "left": 946,
+              "right": 1140,
+              "width": 194,
+              "height": 45
+            },
+            "snippet": "<img typeof=\"foaf:Image\" src=\"https://www.justice.gov/sites/default/files/images/quick_links/explore-doj…\" width=\"194\" height=\"45\">",
+            "nodeLabel": "div.field > div.field__items > div.field__item > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-51-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div#field-slideshow-1-wrapper > div.field-slideshow > div.field-slideshow-slide > a",
+            "boundingRect": {
+              "top": 456,
+              "bottom": 471,
+              "left": 358,
+              "right": 1154,
+              "width": 796,
+              "height": 15
+            },
+            "snippet": "<a href=\"/legal-careers/law-students\" style=\"\">",
+            "nodeLabel": "div#field-slideshow-1-wrapper > div.field-slideshow > div.field-slideshow-slide > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

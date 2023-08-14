@@ -1,0 +1,119 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-57-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.rtecenter > a",
+            "boundingRect": {
+              "top": 617,
+              "bottom": 650,
+              "left": 950,
+              "right": 1028,
+              "width": 78,
+              "height": 33
+            },
+            "snippet": "<a href=\"/eoir/find-legal-representation\">",
+            "nodeLabel": "Find Legal\nRepresentation",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-131-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 613,
+                    "bottom": 656,
+                    "left": 943,
+                    "right": 1112,
+                    "width": 169,
+                    "height": 43
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Find Legal\nRepresentation\tSubmit a\nComplaint"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-58-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR,1,TD,0,A",
+            "selector": "tbody > tr > td.rtecenter > a",
+            "boundingRect": {
+              "top": 617,
+              "bottom": 650,
+              "left": 1046,
+              "right": 1101,
+              "width": 55,
+              "height": 33
+            },
+            "snippet": "<a href=\"/eoir/submit-complaint\">",
+            "nodeLabel": "Submit a\nComplaint",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-131-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 613,
+                    "bottom": 656,
+                    "left": 943,
+                    "right": 1112,
+                    "width": 169,
+                    "height": 43
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Find Legal\nRepresentation\tSubmit a\nComplaint"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

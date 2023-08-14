@@ -1,0 +1,245 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-38-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,1,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr.even > td.views-field > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 471,
+              "bottom": 486,
+              "left": 204,
+              "right": 772,
+              "width": 568,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/opa/event/deputy-attorney-general-rod-j-rosenstein-will-present-…\">",
+            "nodeLabel": "Deputy Attorney General Rod J. Rosenstein will present a Law Day Fireside Chat …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-130-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,1,TR",
+                  "selector": "div.view-content > table#tablesaw-7433 > tbody > tr.even",
+                  "boundingRect": {
+                    "top": 463,
+                    "bottom": 531,
+                    "left": 195,
+                    "right": 1155,
+                    "width": 960,
+                    "height": 69
+                  },
+                  "snippet": "<tr class=\"even\">",
+                  "nodeLabel": "Deputy Attorney General Rod J. Rosenstein will present a Law Day Fireside Chat …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-44-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,3,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr.even > td.views-field > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 641,
+              "left": 204,
+              "right": 895,
+              "width": 691,
+              "height": 33
+            },
+            "snippet": "<a href=\"/archives/opa/event/attorney-general-jeff-sessions-will-testify-senate-app…\">",
+            "nodeLabel": "Attorney General Jeff Sessions will testify at a Senate Appropriations subcommi…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-131-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,3,TR",
+                  "selector": "div.view-content > table#tablesaw-7433 > tbody > tr.even",
+                  "boundingRect": {
+                    "top": 600,
+                    "bottom": 669,
+                    "left": 195,
+                    "right": 1155,
+                    "width": 960,
+                    "height": 69
+                  },
+                  "snippet": "<tr class=\"even\">",
+                  "nodeLabel": "Attorney General Jeff Sessions will testify at a Senate Appropriations subcommi…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-50-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,5,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr.even > td.views-field > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 745,
+              "bottom": 778,
+              "left": 204,
+              "right": 917,
+              "width": 712,
+              "height": 33
+            },
+            "snippet": "<a href=\"/opa/event/principal-deputy-director-katie-sullivan-will-deliver-remarks-o…\">",
+            "nodeLabel": "Principal Deputy Director Katie Sullivan will deliver remarks on OVW updates at…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-132-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,5,TR",
+                  "selector": "div.view-content > table#tablesaw-7433 > tbody > tr.even",
+                  "boundingRect": {
+                    "top": 737,
+                    "bottom": 806,
+                    "left": 195,
+                    "right": 1155,
+                    "width": 960,
+                    "height": 69
+                  },
+                  "snippet": "<tr class=\"even\">",
+                  "nodeLabel": "Principal Deputy Director Katie Sullivan will deliver remarks on OVW updates at…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-56-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,7,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr.even > td.views-field > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 882,
+              "bottom": 897,
+              "left": 204,
+              "right": 612,
+              "width": 408,
+              "height": 15
+            },
+            "snippet": "<a href=\"/opa/event/attorney-general-jeff-sessions-will-deliver-remarks-opioid-cris…\">",
+            "nodeLabel": "Attorney General Jeff Sessions will deliver remarks on the opioid crisis.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-133-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,7,TR",
+                  "selector": "div.view-content > table#tablesaw-7433 > tbody > tr.even",
+                  "boundingRect": {
+                    "top": 874,
+                    "bottom": 925,
+                    "left": 195,
+                    "right": 1155,
+                    "width": 960,
+                    "height": 50
+                  },
+                  "snippet": "<tr class=\"even\">",
+                  "nodeLabel": "Attorney General Jeff Sessions will deliver remarks on the opioid crisis.\t04/17…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-62-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,9,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr.even > td.views-field > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 1001,
+              "bottom": 1034,
+              "left": 204,
+              "right": 908,
+              "width": 704,
+              "height": 33
+            },
+            "snippet": "<a href=\"/opa/event/office-violence-against-women-ovw-principal-deputy-director-kat…\">",
+            "nodeLabel": "Office on Violence Against Women (OVW) Principal Deputy Director Katharine Sull…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-134-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,1,TBODY,9,TR",
+                  "selector": "div.view-content > table#tablesaw-7433 > tbody > tr.even",
+                  "boundingRect": {
+                    "top": 993,
+                    "bottom": 1044,
+                    "left": 195,
+                    "right": 1155,
+                    "width": 960,
+                    "height": 50
+                  },
+                  "snippet": "<tr class=\"even views-row-last\">",
+                  "nodeLabel": "Office on Violence Against Women (OVW) Principal Deputy Director Katharine Sull…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]

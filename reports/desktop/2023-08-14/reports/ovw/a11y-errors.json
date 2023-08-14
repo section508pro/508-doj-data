@@ -1,0 +1,334 @@
+[
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-230-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 278,
+              "bottom": 295,
+              "left": 195,
+              "right": 255,
+              "width": 60,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-231-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 278,
+              "bottom": 295,
+              "left": 287,
+              "right": 412,
+              "width": 125,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "News & Events",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-232-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 278,
+              "bottom": 295,
+              "left": 444,
+              "right": 518,
+              "width": 74,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Funding",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-233-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 278,
+              "bottom": 295,
+              "left": 550,
+              "right": 680,
+              "width": 130,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Grant Programs",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-234-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 278,
+              "bottom": 295,
+              "left": 712,
+              "right": 822,
+              "width": 110,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Tribal Affairs",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-235-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 278,
+              "bottom": 295,
+              "left": 854,
+              "right": 959,
+              "width": 105,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Focus Areas",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-236-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,6,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 278,
+              "bottom": 295,
+              "left": 991,
+              "right": 1083,
+              "width": 92,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-237-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 314,
+              "left": 179,
+              "right": 271,
+              "width": 92,
+              "height": 55
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-238-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 314,
+              "left": 271,
+              "right": 428,
+              "width": 157,
+              "height": 55
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "News & Events",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-239-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 314,
+              "left": 428,
+              "right": 534,
+              "width": 106,
+              "height": 55
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Funding",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-240-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 314,
+              "left": 534,
+              "right": 696,
+              "width": 162,
+              "height": 55
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Grant Programs",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-241-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 314,
+              "left": 696,
+              "right": 838,
+              "width": 142,
+              "height": 55
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Tribal Affairs",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-242-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 314,
+              "left": 838,
+              "right": 975,
+              "width": 137,
+              "height": 55
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Focus Areas",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "63-243-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,6,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 314,
+              "left": 975,
+              "right": 1099,
+              "width": 124,
+              "height": 55
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 7
+  }
+]

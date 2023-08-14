@@ -1,0 +1,128 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,8,P,6,A,1,SPAN",
+            "selector": "div.field__item > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1851,
+              "bottom": 1863,
+              "left": 545,
+              "right": 557,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,10,P,7,A,1,SPAN",
+            "selector": "div.field__item > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 2023,
+              "bottom": 2035,
+              "left": 749,
+              "right": 761,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-IMG",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,4,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+            "selector": "div.field > div.field__items > div.field__item > img",
+            "boundingRect": {
+              "top": 209,
+              "bottom": 271,
+              "left": 944,
+              "right": 1138,
+              "width": 194,
+              "height": 62
+            },
+            "snippet": "<img typeof=\"foaf:Image\" src=\"https://www.justice.gov/sites/default/files/criminal-ceos/fieldable-panel-…\" width=\"194\" height=\"62\">",
+            "nodeLabel": "div.field > div.field__items > div.field__item > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,481 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.usa-layout-docs__sidenav > div#block-leftnavigation-2 > div.group-wrapper > div.usa-accordion",
+            "boundingRect": {
+              "top": 367,
+              "bottom": 790,
+              "left": 195,
+              "right": 411,
+              "width": 216,
+              "height": 423
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Office of the Attorney General\nMeet the Attorney General\nNews\nSelect Publicatio…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-BUTTON",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON",
+            "selector": "div.field__items > div.panel-titles > div.panel-title > button#panel-1",
+            "boundingRect": {
+              "top": 1563,
+              "bottom": 1642,
+              "left": 447,
+              "right": 585,
+              "width": 138,
+              "height": 79
+            },
+            "snippet": "<button type=\"button\" id=\"panel-1\" class=\"block-tab active\" aria-selected=\"true\" tabindex=\"0\">",
+            "nodeLabel": "Speeches",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-selected=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-145-BUTTON",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,1,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,BUTTON",
+            "selector": "div.field__items > div.panel-titles > div.panel-title > button#panel-2",
+            "boundingRect": {
+              "top": 1563,
+              "bottom": 1642,
+              "left": 585,
+              "right": 729,
+              "width": 144,
+              "height": 79
+            },
+            "snippet": "<button type=\"button\" id=\"panel-2\" class=\"block-tab \" aria-selected=\"false\" tabindex=\"-1\">",
+            "nodeLabel": "Blog Posts",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-selected=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-146-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 258,
+              "left": 195,
+              "right": 255,
+              "width": 60,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 239,
+              "bottom": 262,
+              "left": 295,
+              "right": 362,
+              "width": 67,
+              "height": 23
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Our Work",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 258,
+              "left": 402,
+              "right": 459,
+              "width": 57,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 258,
+              "left": 491,
+              "right": 583,
+              "width": 92,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 239,
+              "bottom": 262,
+              "left": 623,
+              "right": 672,
+              "width": 49,
+              "height": 23
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Grants",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 258,
+              "left": 712,
+              "right": 819,
+              "width": 107,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Employment",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 179,
+              "right": 271,
+              "width": 92,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 271,
+              "right": 386,
+              "width": 115,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Our Work",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 386,
+              "right": 475,
+              "width": 89,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 475,
+              "right": 599,
+              "width": 124,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 599,
+              "right": 696,
+              "width": 97,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Grants",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-157-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 696,
+              "right": 835,
+              "width": 139,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Employment",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,0,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 440,
+              "bottom": 522,
+              "left": 195,
+              "right": 411,
+              "width": 216,
+              "height": 82
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "Meet the Attorney General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,1,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 522,
+              "bottom": 584,
+              "left": 195,
+              "right": 411,
+              "width": 216,
+              "height": 62
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-160-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,2,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 584,
+              "bottom": 646,
+              "left": 195,
+              "right": 411,
+              "width": 216,
+              "height": 62
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "Select Publications",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-161-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,3,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 646,
+              "bottom": 728,
+              "left": 195,
+              "right": 411,
+              "width": 216,
+              "height": 83
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "Attorneys General Throughout History",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-162-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,4,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 728,
+              "bottom": 790,
+              "left": 195,
+              "right": 411,
+              "width": 216,
+              "height": 62
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "OAG FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 11
+  }
+]

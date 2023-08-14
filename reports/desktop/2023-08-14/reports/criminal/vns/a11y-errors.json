@@ -1,0 +1,77 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-123-INPUT",
+            "path": "7,HTML,2,BODY,3,SECTION,1,DIV,0,HEADER,1,DIV,0,DIV,0,DIV,0,FORM,0,DIV,0,DIV,2,DIV,0,INPUT",
+            "selector": "div > div.container-inline > div#edit-actions--2 > input#edit-submit--2",
+            "boundingRect": {
+              "top": 76,
+              "bottom": 92,
+              "left": 1134,
+              "right": 1150,
+              "width": 16,
+              "height": 16
+            },
+            "snippet": "<input type=\"submit\" id=\"edit-submit--2\" name=\"op\" value=\"Search\" class=\"form-submit\">",
+            "nodeLabel": "div > div.container-inline > div#edit-actions--2 > input#edit-submit--2",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: edit-submit--2"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-124-INPUT",
+                  "path": "7,HTML,2,BODY,3,SECTION,1,DIV,1,SECTION,0,DIV,0,DIV,1,DIV,0,UL,0,LI,0,FORM,0,DIV,0,DIV,2,DIV,0,INPUT",
+                  "selector": "div > div.container-inline > div#edit-actions--2 > input#edit-submit--2",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<input type=\"submit\" id=\"edit-submit--2\" name=\"op\" value=\"Search\" class=\"form-submit\">",
+                  "nodeLabel": "div > div.container-inline > div#edit-actions--2 > input#edit-submit--2"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-208-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 316,
+              "bottom": 333,
+              "left": 195,
+              "right": 255,
+              "width": 60,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-209-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 303,
+              "bottom": 348,
+              "left": 295,
+              "right": 382,
+              "width": 87,
+              "height": 45
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "DOJ Regulations",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-210-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 303,
+              "bottom": 348,
+              "left": 430,
+              "right": 522,
+              "width": 92,
+              "height": 45
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Judicial Nominations",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-211-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 292,
+              "bottom": 360,
+              "left": 570,
+              "right": 642,
+              "width": 72,
+              "height": 68
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Executive Order Reports",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-212-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 292,
+              "bottom": 360,
+              "left": 690,
+              "right": 768,
+              "width": 78,
+              "height": 68
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Unmanned Aircraft Systems",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-213-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 305,
+              "bottom": 345,
+              "left": 808,
+              "right": 881,
+              "width": 73,
+              "height": 40
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Forensic Science",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-214-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,6,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 283,
+              "bottom": 367,
+              "left": 913,
+              "right": 1020,
+              "width": 107,
+              "height": 85
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "State Capital Counsel Mechanism Certification",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-215-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,7,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 314,
+              "bottom": 337,
+              "left": 1079,
+              "right": 1115,
+              "width": 36,
+              "height": 23
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 8
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-216-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 265,
+              "bottom": 387,
+              "left": 179,
+              "right": 271,
+              "width": 92,
+              "height": 122
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-217-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 265,
+              "bottom": 387,
+              "left": 271,
+              "right": 406,
+              "width": 135,
+              "height": 122
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "DOJ Regulations",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-218-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 265,
+              "bottom": 387,
+              "left": 406,
+              "right": 546,
+              "width": 140,
+              "height": 122
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Judicial Nominations",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-219-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 265,
+              "bottom": 387,
+              "left": 546,
+              "right": 666,
+              "width": 120,
+              "height": 122
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Executive Order Reports",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-220-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 265,
+              "bottom": 387,
+              "left": 666,
+              "right": 792,
+              "width": 126,
+              "height": 122
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Unmanned Aircraft Systems",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-221-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 265,
+              "bottom": 387,
+              "left": 792,
+              "right": 897,
+              "width": 105,
+              "height": 122
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Forensic Science",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-222-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,6,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 265,
+              "bottom": 387,
+              "left": 897,
+              "right": 1055,
+              "width": 158,
+              "height": 122
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "State Capital Counsel Mechanism Certification",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-223-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,7,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 265,
+              "bottom": 387,
+              "left": 1055,
+              "right": 1139,
+              "width": 84,
+              "height": 122
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]

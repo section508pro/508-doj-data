@@ -1,0 +1,371 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-162-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,10,P,0,A,1,SPAN",
+            "selector": "div.field__item > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1071,
+              "bottom": 1083,
+              "left": 700,
+              "right": 712,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-163-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,11,P,0,A,1,SPAN",
+            "selector": "div.field__item > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1120,
+              "bottom": 1132,
+              "left": 555,
+              "right": 567,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-164-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,12,P,0,A,1,SPAN",
+            "selector": "div.field__item > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1151,
+              "bottom": 1163,
+              "left": 431,
+              "right": 443,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-165-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,0,TD,0,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1492,
+              "bottom": 1504,
+              "left": 474,
+              "right": 486,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-166-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,0,TD,2,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1511,
+              "bottom": 1523,
+              "left": 655,
+              "right": 667,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-167-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,0,TD,4,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1529,
+              "bottom": 1541,
+              "left": 528,
+              "right": 540,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-168-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,0,TD,6,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1547,
+              "bottom": 1559,
+              "left": 411,
+              "right": 423,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-169-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,0,TD,8,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1565,
+              "bottom": 1577,
+              "left": 502,
+              "right": 514,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,0,TD,10,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1583,
+              "bottom": 1595,
+              "left": 467,
+              "right": 479,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-171-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,1,TD,0,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1492,
+              "bottom": 1504,
+              "left": 1039,
+              "right": 1051,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-172-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,1,TD,2,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1511,
+              "bottom": 1523,
+              "left": 829,
+              "right": 841,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-173-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,1,TD,4,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1529,
+              "bottom": 1541,
+              "left": 875,
+              "right": 887,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,1,TD,6,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1547,
+              "bottom": 1559,
+              "left": 860,
+              "right": 872,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-175-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,TABLE,1,TBODY,0,TR,1,TD,8,A,1,SPAN",
+            "selector": "tr > td > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1565,
+              "bottom": 1577,
+              "left": 802,
+              "right": 814,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-176-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,24,P,2,A,1,SPAN",
+            "selector": "div.field__item > p > a.mailto > span.mailto",
+            "boundingRect": {
+              "top": 1706,
+              "bottom": 1721,
+              "left": 442,
+              "right": 454,
+              "width": 12,
+              "height": 15
+            },
+            "snippet": "<span class=\"mailto\" aria-label=\"(link sends e-mail)\">",
+            "nodeLabel": "(link sends e-mail)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 15
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-177-H3",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.field > div.field__items > div.field__item > h3.rtecenter",
+            "boundingRect": {
+              "top": 640,
+              "bottom": 659,
+              "left": 358,
+              "right": 1155,
+              "width": 797,
+              "height": 18
+            },
+            "snippet": "<h3 class=\"rtecenter\">",
+            "nodeLabel": " Veteran Resources  |  Job Fairs  |  Contact Veteran Recruitment",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,P,0,A,1,SPAN",
+            "selector": "div.field__item > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1019,
+              "bottom": 1031,
+              "left": 486,
+              "right": 498,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-INPUT",
+            "path": "7,HTML,2,BODY,3,SECTION,1,DIV,0,HEADER,1,DIV,0,DIV,0,DIV,0,FORM,0,DIV,0,DIV,2,DIV,0,INPUT",
+            "selector": "div > div.container-inline > div#edit-actions--2 > input#edit-submit--2",
+            "boundingRect": {
+              "top": 76,
+              "bottom": 92,
+              "left": 1134,
+              "right": 1150,
+              "width": 16,
+              "height": 16
+            },
+            "snippet": "<input type=\"submit\" id=\"edit-submit--2\" name=\"op\" value=\"Search\" class=\"form-submit\">",
+            "nodeLabel": "div > div.container-inline > div#edit-actions--2 > input#edit-submit--2",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: edit-submit--2"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-142-INPUT",
+                  "path": "7,HTML,2,BODY,3,SECTION,1,DIV,1,SECTION,0,DIV,0,DIV,1,DIV,0,UL,0,LI,0,FORM,0,DIV,0,DIV,2,DIV,0,INPUT",
+                  "selector": "div > div.container-inline > div#edit-actions--2 > input#edit-submit--2",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<input type=\"submit\" id=\"edit-submit--2\" name=\"op\" value=\"Search\" class=\"form-submit\">",
+                  "nodeLabel": "div > div.container-inline > div#edit-actions--2 > input#edit-submit--2"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-50-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div#field-slideshow-1-wrapper > div.field-slideshow > div.field-slideshow-slide > a",
+            "boundingRect": {
+              "top": 602,
+              "bottom": 617,
+              "left": 358,
+              "right": 1154,
+              "width": 796,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.justice.gov/defendingchildhood/aian.html\" style=\"\">",
+            "nodeLabel": "div#field-slideshow-1-wrapper > div.field-slideshow > div.field-slideshow-slide > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

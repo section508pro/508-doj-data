@@ -1,0 +1,180 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-131-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,P,0,SPAN,1,STRONG,0,A,1,SPAN",
+            "selector": "span.doj-large-font > strong > a.ext > span.ext",
+            "boundingRect": {
+              "top": 500,
+              "bottom": 512,
+              "left": 827,
+              "right": 839,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-60-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.panel-pane-inner > div.safe-exit-pane > div.safe-exit-float > a",
+            "boundingRect": {
+              "top": 281,
+              "bottom": 339,
+              "left": 910,
+              "right": 1154,
+              "width": 244,
+              "height": 58
+            },
+            "snippet": "<a href=\"https://www.weather.gov\">",
+            "nodeLabel": "QUICK EXIT",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #ffffff, background color: #c35e60, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-132-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV",
+                  "selector": "body.html > section.l-page > div.l-lower",
+                  "boundingRect": {
+                    "top": 152,
+                    "bottom": 971,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 818
+                  },
+                  "snippet": "<div class=\"l-lower\">",
+                  "nodeLabel": "You are here\nHome » Elder Justice Initiative (EJI)\nSHARE\n \nen Español\nElder Jus…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-133-H3",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,H3",
+            "selector": "div.field > div.field__items > div.field__item > h3",
+            "boundingRect": {
+              "top": 435,
+              "bottom": 457,
+              "left": 358,
+              "right": 604,
+              "width": 246,
+              "height": 22
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Call",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

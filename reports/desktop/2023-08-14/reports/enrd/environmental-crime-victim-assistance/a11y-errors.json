@@ -1,0 +1,630 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-164-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,H4,0,A,1,SPAN",
+            "selector": "div > h4 > a.ext > span.ext",
+            "boundingRect": {
+              "top": 977,
+              "bottom": 989,
+              "left": 506,
+              "right": 518,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-165-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,1,DIV,2,P,1,A,1,SPAN",
+            "selector": "div > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1459,
+              "bottom": 1471,
+              "left": 963,
+              "right": 975,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-166-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,0,H4,0,A,1,SPAN",
+            "selector": "div > h4 > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1526,
+              "bottom": 1538,
+              "left": 560,
+              "right": 572,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-167-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,1,DIV,2,P,1,A,1,SPAN",
+            "selector": "div > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1898,
+              "bottom": 1910,
+              "left": 1013,
+              "right": 1025,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-168-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,0,DIV,0,H4,0,A,1,SPAN",
+            "selector": "div > h4 > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1965,
+              "bottom": 1977,
+              "left": 569,
+              "right": 581,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-169-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,1,DIV,3,P,1,A,1,SPAN",
+            "selector": "div > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 2496,
+              "bottom": 2508,
+              "left": 1018,
+              "right": 1030,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,13,P,1,A,1,SPAN",
+            "selector": "div.field__item > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 2701,
+              "bottom": 2713,
+              "left": 832,
+              "right": 844,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-78-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div > div > h4 > a.ext",
+            "boundingRect": {
+              "top": 977,
+              "bottom": 992,
+              "left": 411,
+              "right": 518,
+              "width": 106,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.youtube.com/watch?v=cfv9asREaFw&amp;feature=youtu.be\" class=\"ext extlink\">",
+            "nodeLabel": "Scott Dominguez",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-171-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 959,
+                    "bottom": 1184,
+                    "left": 398,
+                    "right": 757,
+                    "width": 358,
+                    "height": 225
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "Scott Dominguez\n\nPhoto courtesy of EPA.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-172-I",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,1,DIV,1,P,1,A,0,I",
+            "selector": "div > p > a > i",
+            "boundingRect": {
+              "top": 1392,
+              "bottom": 1425,
+              "left": 770,
+              "right": 1095,
+              "width": 326,
+              "height": 33
+            },
+            "snippet": "<i>",
+            "nodeLabel": "United States v. Elias",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-173-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,1,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 959,
+                    "bottom": 1489,
+                    "left": 757,
+                    "right": 1115,
+                    "width": 358,
+                    "height": 530
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "In 1996, 20-year-old Scott Dominguez was ordered to clean a 25,000 gallon stora…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-81-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,1,DIV,2,P,1,A",
+            "selector": "div > div > p > a.ext",
+            "boundingRect": {
+              "top": 1459,
+              "bottom": 1474,
+              "left": 770,
+              "right": 975,
+              "width": 205,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.youtube.com/watch?v=cfv9asREaFw&amp;feature=youtu.be\" class=\"ext extlink\">",
+            "nodeLabel": "Scott Dominguez video presentation.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-173-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,1,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 959,
+                    "bottom": 1489,
+                    "left": 757,
+                    "right": 1115,
+                    "width": 358,
+                    "height": 530
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "In 1996, 20-year-old Scott Dominguez was ordered to clean a 25,000 gallon stora…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-82-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div > div > h4 > a.ext",
+            "boundingRect": {
+              "top": 1526,
+              "bottom": 1541,
+              "left": 411,
+              "right": 572,
+              "width": 160,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.youtube.com/watch?v=XzAmkfRGFgc&amp;feature=youtu.be\" class=\"ext extlink\">",
+            "nodeLabel": "Rebecca and Rachel Toone",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-174-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 1507,
+                    "bottom": 1733,
+                    "left": 398,
+                    "right": 757,
+                    "width": 358,
+                    "height": 225
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "Rebecca and Rachel Toone\n Photo courtesy of EPA.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-175-I",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,1,DIV,1,P,1,A,0,I",
+            "selector": "div > p > a.doj-analytics-processed > i",
+            "boundingRect": {
+              "top": 1831,
+              "bottom": 1846,
+              "left": 884,
+              "right": 1032,
+              "width": 149,
+              "height": 15
+            },
+            "snippet": "<i>",
+            "nodeLabel": "United States v. Nocks, et al.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-176-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,1,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 1507,
+                    "bottom": 1928,
+                    "left": 757,
+                    "right": 1115,
+                    "width": 358,
+                    "height": 421
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "In 2010, the Toone family hired Bugman Lawn and Pest, a local pest control comp…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-85-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,1,DIV,2,P,1,A",
+            "selector": "div > div > p > a.ext",
+            "boundingRect": {
+              "top": 1898,
+              "bottom": 1913,
+              "left": 770,
+              "right": 1025,
+              "width": 255,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.youtube.com/watch?v=XzAmkfRGFgc&amp;feature=youtu.be\" class=\"ext extlink\">",
+            "nodeLabel": "Rebecca and Rachel Toone video presentation.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-176-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,1,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 1507,
+                    "bottom": 1928,
+                    "left": 757,
+                    "right": 1115,
+                    "width": 358,
+                    "height": 421
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "In 2010, the Toone family hired Bugman Lawn and Pest, a local pest control comp…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-86-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div > div > h4 > a.ext",
+            "boundingRect": {
+              "top": 1965,
+              "bottom": 1980,
+              "left": 411,
+              "right": 581,
+              "width": 169,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.youtube.com/watch?v=ScMyRrTsuLc&amp;feature=youtu.be\" class=\"ext extlink\">",
+            "nodeLabel": "Brent and Arlene McGregor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-177-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,0,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 1947,
+                    "bottom": 2157,
+                    "left": 398,
+                    "right": 757,
+                    "width": 358,
+                    "height": 210
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "Brent and Arlene McGregor\n Photo courtesy of EPA.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-178-I",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,1,DIV,2,P,1,A,0,I",
+            "selector": "div > p > a > i",
+            "boundingRect": {
+              "top": 2428,
+              "bottom": 2443,
+              "left": 941,
+              "right": 1096,
+              "width": 156,
+              "height": 15
+            },
+            "snippet": "<i>",
+            "nodeLabel": "United States v. McWane, Inc.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-179-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,1,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 1947,
+                    "bottom": 2526,
+                    "left": 757,
+                    "right": 1115,
+                    "width": 358,
+                    "height": 579
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "Brent and Arlene McGregor lived in Provo, Utah. For years, their community was …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-89-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,1,DIV,3,P,1,A",
+            "selector": "div > div > p > a.ext",
+            "boundingRect": {
+              "top": 2496,
+              "bottom": 2511,
+              "left": 770,
+              "right": 1030,
+              "width": 260,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.youtube.com/watch?v=ScMyRrTsuLc&amp;feature=youtu.be\" class=\"ext extlink\">",
+            "nodeLabel": "Brent and Arlene McGregor video presentation.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #8c6e20, background color: #f1f1f1, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-179-DIV",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,1,DIV",
+                  "selector": "div.field__item > div > div > div",
+                  "boundingRect": {
+                    "top": 1947,
+                    "bottom": 2526,
+                    "left": 757,
+                    "right": 1115,
+                    "width": 358,
+                    "height": 579
+                  },
+                  "snippet": "<div style=\"background-color:#f1f1f1; padding:0 1em; float:left; width:50%\">",
+                  "nodeLabel": "Brent and Arlene McGregor lived in Provo, Utah. For years, their community was …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 9
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-H3",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,H3",
+            "selector": "div.field__items > div.field__item > div.bodytext > h3",
+            "boundingRect": {
+              "top": 490,
+              "bottom": 508,
+              "left": 358,
+              "right": 1155,
+              "width": 797,
+              "height": 18
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "What is an Environmental Crime?",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

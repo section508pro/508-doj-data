@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-47-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 203,
+              "right": 229,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1999-press-releases\">",
+            "nodeLabel": "1999",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-48-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,1,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 309,
+              "right": 335,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1998-press-releases\">",
+            "nodeLabel": "1998",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-49-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,2,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 416,
+              "right": 442,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1997-press-releases\">",
+            "nodeLabel": "1997",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-50-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 522,
+              "right": 548,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1996-press-releases\">",
+            "nodeLabel": "1996",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-51-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 629,
+              "right": 655,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1995-press-releases\">",
+            "nodeLabel": "1995",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-52-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,5,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 735,
+              "right": 761,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1994-press-releases\">",
+            "nodeLabel": "1994",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-53-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,6,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 842,
+              "right": 868,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1993-press-releases\">",
+            "nodeLabel": "1993",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-54-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,7,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 948,
+              "right": 974,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1992-press-releases\">",
+            "nodeLabel": "1992",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-55-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR,8,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 606,
+              "bottom": 621,
+              "left": 1055,
+              "right": 1081,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1991-press-releases\">",
+            "nodeLabel": "1991",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-155-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 602,
+                    "bottom": 640,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n1994\n\n\t\n\n1993\n\n\t\n\n1992\n\n\t\n\n1991"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-65-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 684,
+              "bottom": 699,
+              "left": 203,
+              "right": 229,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1981-press-releases\">",
+            "nodeLabel": "1981",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 679,
+                    "bottom": 718,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1981\n\n\t\n\n1980\n\n\t\n\n1979\n\n\t\n\n1978\n\n\t\n\n1977\n\n\t\n\n1976\n\n\t\n\n1975\n\n\t\n\n1974\n\n\t\n\n1973"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-66-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR,1,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 684,
+              "bottom": 699,
+              "left": 309,
+              "right": 335,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1980-press-releases\">",
+            "nodeLabel": "1980",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 679,
+                    "bottom": 718,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1981\n\n\t\n\n1980\n\n\t\n\n1979\n\n\t\n\n1978\n\n\t\n\n1977\n\n\t\n\n1976\n\n\t\n\n1975\n\n\t\n\n1974\n\n\t\n\n1973"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-67-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR,2,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 684,
+              "bottom": 699,
+              "left": 416,
+              "right": 442,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1979-press-releases\">",
+            "nodeLabel": "1979",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 679,
+                    "bottom": 718,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1981\n\n\t\n\n1980\n\n\t\n\n1979\n\n\t\n\n1978\n\n\t\n\n1977\n\n\t\n\n1976\n\n\t\n\n1975\n\n\t\n\n1974\n\n\t\n\n1973"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-68-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 684,
+              "bottom": 699,
+              "left": 629,
+              "right": 655,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1977-press-releases\">",
+            "nodeLabel": "1977",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 679,
+                    "bottom": 718,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1981\n\n\t\n\n1980\n\n\t\n\n1979\n\n\t\n\n1978\n\n\t\n\n1977\n\n\t\n\n1976\n\n\t\n\n1975\n\n\t\n\n1974\n\n\t\n\n1973"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-69-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR,5,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 684,
+              "bottom": 699,
+              "left": 735,
+              "right": 761,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1976-press-releases\">",
+            "nodeLabel": "1976",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 679,
+                    "bottom": 718,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1981\n\n\t\n\n1980\n\n\t\n\n1979\n\n\t\n\n1978\n\n\t\n\n1977\n\n\t\n\n1976\n\n\t\n\n1975\n\n\t\n\n1974\n\n\t\n\n1973"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-70-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR,7,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 684,
+              "bottom": 699,
+              "left": 948,
+              "right": 974,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1974-press-releases\">",
+            "nodeLabel": "1974",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 679,
+                    "bottom": 718,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1981\n\n\t\n\n1980\n\n\t\n\n1979\n\n\t\n\n1978\n\n\t\n\n1977\n\n\t\n\n1976\n\n\t\n\n1975\n\n\t\n\n1974\n\n\t\n\n1973"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-71-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR,8,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 684,
+              "bottom": 699,
+              "left": 1055,
+              "right": 1081,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-1973-press-releases\">",
+            "nodeLabel": "1973",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,3,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 679,
+                    "bottom": 718,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1981\n\n\t\n\n1980\n\n\t\n\n1979\n\n\t\n\n1978\n\n\t\n\n1977\n\n\t\n\n1976\n\n\t\n\n1975\n\n\t\n\n1974\n\n\t\n\n1973"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-82-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 868,
+              "bottom": 883,
+              "left": 203,
+              "right": 229,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-congressional-testimony#page-14\">",
+            "nodeLabel": "2000",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-157-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 863,
+                    "bottom": 902,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2000\n\n\t\n\n1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n "
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-83-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,1,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 868,
+              "bottom": 883,
+              "left": 340,
+              "right": 366,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-congressional-testimony#page-15\">",
+            "nodeLabel": "1999",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-157-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 863,
+                    "bottom": 902,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2000\n\n\t\n\n1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n "
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-84-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,2,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 868,
+              "bottom": 883,
+              "left": 477,
+              "right": 503,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-congressional-testimony#page-16\">",
+            "nodeLabel": "1998",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-157-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 863,
+                    "bottom": 902,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2000\n\n\t\n\n1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n "
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-85-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 868,
+              "bottom": 883,
+              "left": 614,
+              "right": 640,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-congressional-testimony#page-17\">",
+            "nodeLabel": "1997",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-157-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 863,
+                    "bottom": 902,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2000\n\n\t\n\n1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n "
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-86-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 868,
+              "bottom": 883,
+              "left": 751,
+              "right": 777,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-congressional-testimony#page-18\">",
+            "nodeLabel": "1996",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-157-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 863,
+                    "bottom": 902,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2000\n\n\t\n\n1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n "
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-87-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,5,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 868,
+              "bottom": 883,
+              "left": 888,
+              "right": 914,
+              "width": 26,
+              "height": 15
+            },
+            "snippet": "<a href=\"/archives/atr/usdoj-antitrust-division-congressional-testimony#page-19\">",
+            "nodeLabel": "1995",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-157-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR",
+                  "selector": "div.field__item > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 863,
+                    "bottom": 902,
+                    "left": 196,
+                    "right": 1155,
+                    "width": 959,
+                    "height": 39
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2000\n\n\t\n\n1999\n\n\t\n\n1998\n\n\t\n\n1997\n\n\t\n\n1996\n\n\t\n\n1995\n\n\t\n\n "
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 22
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-158-H3",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.field > div.field__items > div.field__item > h3",
+            "boundingRect": {
+              "top": 358,
+              "bottom": 377,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 18
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Archived Content",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

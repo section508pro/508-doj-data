@@ -1,0 +1,111 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,FORM,0,DIV,24,DIV,4,UL,0,LI,1,A,1,SPAN",
+            "selector": "ul > li > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1951,
+              "bottom": 1963,
+              "left": 506,
+              "right": 518,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,FORM,0,DIV,24,DIV,4,UL,0,LI,3,A,1,SPAN",
+            "selector": "ul > li > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1951,
+              "bottom": 1963,
+              "left": 768,
+              "right": 780,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,FORM,0,DIV,24,DIV,4,UL,0,LI,7,A,1,SPAN",
+            "selector": "ul > li > a.ext > span.ext",
+            "boundingRect": {
+              "top": 1970,
+              "bottom": 1982,
+              "left": 712,
+              "right": 724,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,3,DIV,2,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,FORM,0,DIV,24,DIV,7,UL,2,LI,2,A,1,SPAN",
+            "selector": "ul > li > a.ext > span.ext",
+            "boundingRect": {
+              "top": 2381,
+              "bottom": 2393,
+              "left": 592,
+              "right": 604,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

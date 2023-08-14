@@ -1,0 +1,335 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-38-A",
+            "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,0,TH,0,A",
+            "selector": "thead > tr > th.views-field > a.active",
+            "boundingRect": {
+              "top": 731,
+              "bottom": 768,
+              "left": 224,
+              "right": 281,
+              "width": 57,
+              "height": 37
+            },
+            "snippet": "<a href=\"/usao-dc/capitol-breach-cases?combine=&amp;order=field_case_multi_number&amp;sort=…\" class=\"active\">",
+            "nodeLabel": "Case Number",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #a5814b, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-4566-TH",
+                  "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,0,TH",
+                  "selector": "table.views-table > thead > tr > th.views-field",
+                  "boundingRect": {
+                    "top": 710,
+                    "bottom": 790,
+                    "left": 216,
+                    "right": 296,
+                    "width": 80,
+                    "height": 80
+                  },
+                  "snippet": "<th class=\"views-field views-field-field-case-multi-number\">",
+                  "nodeLabel": "Case Number"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-39-A",
+            "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,1,TH,0,A",
+            "selector": "thead > tr > th.views-field > a.active",
+            "boundingRect": {
+              "top": 741,
+              "bottom": 758,
+              "left": 336,
+              "right": 390,
+              "width": 54,
+              "height": 17
+            },
+            "snippet": "<a href=\"/usao-dc/capitol-breach-cases?combine=&amp;order=title&amp;sort=desc\" class=\"active\">",
+            "nodeLabel": "Name",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #a5814b, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-4567-TH",
+                  "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,1,TH",
+                  "selector": "table.views-table > thead > tr > th.views-field",
+                  "boundingRect": {
+                    "top": 710,
+                    "bottom": 790,
+                    "left": 296,
+                    "right": 430,
+                    "width": 135,
+                    "height": 80
+                  },
+                  "snippet": "<th class=\"views-field views-field-title active\">",
+                  "nodeLabel": "Name"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-4568-TH",
+            "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,2,TH",
+            "selector": "table.views-table > thead > tr > th.views-field",
+            "boundingRect": {
+              "top": 710,
+              "bottom": 790,
+              "left": 430,
+              "right": 596,
+              "width": 165,
+              "height": 80
+            },
+            "snippet": "<th class=\"views-field views-field-field-case-multi-charges\">",
+            "nodeLabel": "Charge(s)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #a5814b, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-4569-TH",
+            "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,3,TH",
+            "selector": "table.views-table > thead > tr > th.views-field",
+            "boundingRect": {
+              "top": 710,
+              "bottom": 790,
+              "left": 596,
+              "right": 920,
+              "width": 325,
+              "height": 80
+            },
+            "snippet": "<th class=\"views-field views-field-field-case-multi-docs\">",
+            "nodeLabel": "Case Documents",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #a5814b, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-40-A",
+            "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,4,TH,0,A",
+            "selector": "thead > tr > th.views-field > a.active",
+            "boundingRect": {
+              "top": 731,
+              "bottom": 768,
+              "left": 947,
+              "right": 1028,
+              "width": 81,
+              "height": 37
+            },
+            "snippet": "<a href=\"/usao-dc/capitol-breach-cases?combine=&amp;order=field_case_multi_location&amp;sor…\" class=\"active\">",
+            "nodeLabel": "Location of Arrest",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #a5814b, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-4570-TH",
+                  "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,4,TH",
+                  "selector": "table.views-table > thead > tr > th.views-field",
+                  "boundingRect": {
+                    "top": 710,
+                    "bottom": 790,
+                    "left": 920,
+                    "right": 1055,
+                    "width": 135,
+                    "height": 80
+                  },
+                  "snippet": "<th class=\"views-field views-field-field-case-multi-location\">",
+                  "nodeLabel": "Location of Arrest"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-4571-TH",
+            "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,5,TH",
+            "selector": "table.views-table > thead > tr > th.views-field",
+            "boundingRect": {
+              "top": 710,
+              "bottom": 790,
+              "left": 1055,
+              "right": 1219,
+              "width": 164,
+              "height": 80
+            },
+            "snippet": "<th class=\"views-field views-field-field-case-multi-status\">",
+            "nodeLabel": "Case Status",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #a5814b, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-41-A",
+            "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,6,TH,0,A",
+            "selector": "thead > tr > th.views-field > a.active",
+            "boundingRect": {
+              "top": 721,
+              "bottom": 778,
+              "left": 1229,
+              "right": 1295,
+              "width": 66,
+              "height": 56
+            },
+            "snippet": "<a href=\"/usao-dc/capitol-breach-cases?combine=&amp;order=changed&amp;sort=desc\" class=\"active\">",
+            "nodeLabel": "Entry Last Updated*",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #a5814b, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-4572-TH",
+                  "path": "7,HTML,2,BODY,2,DIV,2,DIV,0,DIV,4,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,TABLE,0,THEAD,0,TR,6,TH",
+                  "selector": "table.views-table > thead > tr > th.views-field",
+                  "boundingRect": {
+                    "top": 710,
+                    "bottom": 790,
+                    "left": 1219,
+                    "right": 1296,
+                    "width": 77,
+                    "height": 80
+                  },
+                  "snippet": "<th class=\"views-field views-field-changed\">",
+                  "nodeLabel": "Entry Last Updated*"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-4562-INPUT",
+            "path": "7,HTML,2,BODY,2,DIV,1,HEADER,1,DIV,1,DIV,0,DIV,0,DIV,0,FORM,0,DIV,0,DIV,1,DIV,0,INPUT",
+            "selector": "div > div.container-inline > div.form-item > input#edit-usasearch-field-search-box-185846-field-usasearch-affiliate-0--2",
+            "boundingRect": {
+              "top": 90,
+              "bottom": 112,
+              "left": 899,
+              "right": 1073,
+              "width": 174,
+              "height": 22
+            },
+            "snippet": "<input name=\"query\" aria-label=\"Search this site\" placeholder=\"Search\" type=\"text\" id=\"edit-usasearch-field-search-box-185846-field-usasearch-affiliate-0--2\" value=\"\" size=\"15\" maxlength=\"128\" class=\"form-text\">",
+            "nodeLabel": "Search this site",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: edit-usasearch-field-search-box-185846-field-usasearch-affiliate-0--2"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-4573-INPUT",
+                  "path": "7,HTML,2,BODY,2,DIV,1,HEADER,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,FORM,0,DIV,0,DIV,1,DIV,0,INPUT",
+                  "selector": "div > div.container-inline > div.form-item > input#edit-usasearch-field-search-box-185846-field-usasearch-affiliate-0--2",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<input name=\"query\" aria-label=\"Search this site\" placeholder=\"Search\" type=\"text\" id=\"edit-usasearch-field-search-box-185846-field-usasearch-affiliate-0--2\" value=\"\" size=\"15\" maxlength=\"128\" class=\"form-text\">",
+                  "nodeLabel": "Search this site"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,433 @@
+[
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-49-HTML",
+            "path": "0,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 940,
+              "left": 0,
+              "right": 1350,
+              "width": 1350,
+              "height": 940
+            },
+            "snippet": "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The xml:lang attribute is not valid on HTML pages, use the lang attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-50-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,2,TD,1,TABLE,0,TBODY,3,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 365,
+              "bottom": 367,
+              "left": 27,
+              "right": 247,
+              "width": 220,
+              "height": 2
+            },
+            "snippet": "<img src=\"images/menu_separator_bottom.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-51-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,2,TD,5,TABLE,0,TBODY,1,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 572,
+              "bottom": 574,
+              "left": 27,
+              "right": 247,
+              "width": 220,
+              "height": 2
+            },
+            "snippet": "<img src=\"images/menu_separator_bottom.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-52-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,2,TD,9,TABLE,0,TBODY,1,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 640,
+              "bottom": 642,
+              "left": 27,
+              "right": 247,
+              "width": 220,
+              "height": 2
+            },
+            "snippet": "<img src=\"images/menu_separator_bottom.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-47-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,2,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 115,
+              "bottom": 134,
+              "left": 256,
+              "right": 264,
+              "width": 8,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/table_topleft.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-53-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,2,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,0,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 115,
+              "bottom": 134,
+              "left": 1301,
+              "right": 1309,
+              "width": 8,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/table_topright.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-54-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,2,TABLE,0,TBODY,1,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 218,
+              "bottom": 219,
+              "left": 256,
+              "right": 257,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"images/spacer_003366.gif\" width=\"1\" height=\"1\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-55-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,2,TABLE,0,TBODY,1,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 218,
+              "bottom": 219,
+              "left": 1308,
+              "right": 1309,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"images/spacer_003366.gif\" width=\"1\" height=\"1\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-56-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,2,TABLE,0,TBODY,6,TR,0,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 303,
+              "bottom": 322,
+              "left": 256,
+              "right": 264,
+              "width": 8,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/table_bottomleft.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-57-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,2,TABLE,0,TBODY,6,TR,0,TD,0,TABLE,0,TBODY,0,TR,1,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 303,
+              "bottom": 322,
+              "left": 264,
+              "right": 265,
+              "width": 1,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/spacer_003366.gif\" width=\"1\" height=\"19\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-58-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,2,TABLE,0,TBODY,6,TR,0,TD,0,TABLE,0,TBODY,0,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 303,
+              "bottom": 322,
+              "left": 1301,
+              "right": 1309,
+              "width": 8,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/table_bottomright.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-59-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 336,
+              "bottom": 355,
+              "left": 256,
+              "right": 264,
+              "width": 8,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/table_topleft.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-60-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,4,TABLE,0,TBODY,0,TR,0,TD,0,TABLE,0,TBODY,0,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 336,
+              "bottom": 355,
+              "left": 1301,
+              "right": 1309,
+              "width": 8,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/table_topright.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-61-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,4,TABLE,0,TBODY,1,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 457,
+              "bottom": 458,
+              "left": 256,
+              "right": 257,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"images/spacer_003366.gif\" width=\"1\" height=\"1\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-62-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,4,TABLE,0,TBODY,1,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 457,
+              "bottom": 458,
+              "left": 1308,
+              "right": 1309,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"images/spacer_003366.gif\" width=\"1\" height=\"1\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-63-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,4,TABLE,0,TBODY,6,TR,0,TD,0,TABLE,0,TBODY,0,TR,0,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 560,
+              "bottom": 579,
+              "left": 256,
+              "right": 264,
+              "width": 8,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/table_bottomleft.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-64-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,4,TABLE,0,TBODY,6,TR,0,TD,0,TABLE,0,TBODY,0,TR,1,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 560,
+              "bottom": 579,
+              "left": 264,
+              "right": 265,
+              "width": 1,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/spacer_003366.gif\" width=\"1\" height=\"19\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-65-IMG",
+            "path": "0,HTML,1,BODY,7,TABLE,0,TBODY,0,TR,4,TD,4,TABLE,0,TBODY,6,TR,0,TD,0,TABLE,0,TBODY,0,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 560,
+              "bottom": 579,
+              "left": 1301,
+              "right": 1309,
+              "width": 8,
+              "height": 19
+            },
+            "snippet": "<img src=\"images/table_bottomright.gif\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-66-IMG",
+            "path": "0,HTML,1,BODY,9,TABLE,0,TBODY,0,TR,2,TD,0,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 652,
+              "bottom": 657,
+              "left": 27,
+              "right": 28,
+              "width": 1,
+              "height": 5
+            },
+            "snippet": "<img src=\"images/spacer.gif\" width=\"1\" height=\"5\">",
+            "nodeLabel": "tbody > tr > td > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 18
+  }
+]

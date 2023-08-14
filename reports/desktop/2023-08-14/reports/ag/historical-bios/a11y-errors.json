@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-190-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.layout__region > div.block > div.group-wrapper > div.usa-accordion",
+            "boundingRect": {
+              "top": 367,
+              "bottom": 790,
+              "left": 195,
+              "right": 419,
+              "width": 224,
+              "height": 423
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Office of the Attorney General\nMeet the Attorney General\nNews\nSelect Publicatio…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-191-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 258,
+              "left": 195,
+              "right": 255,
+              "width": 60,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-192-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 239,
+              "bottom": 262,
+              "left": 295,
+              "right": 362,
+              "width": 67,
+              "height": 23
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Our Work",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-193-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 258,
+              "left": 402,
+              "right": 459,
+              "width": 57,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-194-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 258,
+              "left": 491,
+              "right": 583,
+              "width": 92,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 239,
+              "bottom": 262,
+              "left": 623,
+              "right": 672,
+              "width": 49,
+              "height": 23
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Grants",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-196-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 258,
+              "left": 712,
+              "right": 819,
+              "width": 107,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Employment",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-197-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1046,
+              "bottom": 1261,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 215
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2017/02/09/lynch_s…\" width=\"150\" height=\"200\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,4,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1446,
+              "bottom": 1647,
+              "left": 451,
+              "right": 612,
+              "width": 161,
+              "height": 201
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2015/03/05/eholder…\" width=\"216\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,5,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1446,
+              "bottom": 1651,
+              "left": 632,
+              "right": 793,
+              "width": 161,
+              "height": 205
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/mukasey…\" width=\"210\" height=\"267\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,6,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1446,
+              "bottom": 1653,
+              "left": 813,
+              "right": 974,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/gonzale…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-201-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,7,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1446,
+              "bottom": 1653,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/ashcrof…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-202-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,8,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1815,
+              "bottom": 2022,
+              "left": 451,
+              "right": 612,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/reno-j.…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-203-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,9,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1815,
+              "bottom": 2022,
+              "left": 632,
+              "right": 793,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/barr-b.…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-204-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,10,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1815,
+              "bottom": 2022,
+              "left": 813,
+              "right": 974,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/thornbu…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-205-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,11,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 1815,
+              "bottom": 2022,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/meese-e…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-206-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,12,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 2207,
+              "bottom": 2414,
+              "left": 451,
+              "right": 612,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/smith-w…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-207-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,13,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 2207,
+              "bottom": 2414,
+              "left": 632,
+              "right": 793,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/civilet…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-208-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,14,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 2207,
+              "bottom": 2414,
+              "left": 813,
+              "right": 974,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/bell-gb…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-209-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,15,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 2207,
+              "bottom": 2414,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/levi-eh…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-210-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,16,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 2600,
+              "bottom": 2807,
+              "left": 451,
+              "right": 612,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/saxbe-w…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-211-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,17,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 2600,
+              "bottom": 2807,
+              "left": 632,
+              "right": 793,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/richard…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-212-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,18,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 2600,
+              "bottom": 2807,
+              "left": 813,
+              "right": 974,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/kleindi…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-213-IMG",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,19,LI,0,DIV,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.views-field > span.field-content > a > img",
+            "boundingRect": {
+              "top": 2600,
+              "bottom": 2807,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 207
+            },
+            "snippet": "<img src=\"/d9/styles/biography_view_page/public/ag/bios/portraits/2014/10/23/mitchel…\" width=\"210\" height=\"270\" loading=\"lazy\">",
+            "nodeLabel": "div.views-field > span.field-content > a > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 17
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-60-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 1248,
+              "bottom": 1264,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/attorney-general-loretta-e-lynch\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-63-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,4,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 1634,
+              "bottom": 1650,
+              "left": 451,
+              "right": 612,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/attorney-general-eric-h-holder-jr\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-66-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,5,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 1638,
+              "bottom": 1654,
+              "left": 632,
+              "right": 793,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/mukasey-michael-b\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-69-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,6,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 1640,
+              "bottom": 1656,
+              "left": 813,
+              "right": 974,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/gonzales-alberto-r\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-72-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,7,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 1640,
+              "bottom": 1656,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/ashcroft-john-david\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-75-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,8,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2009,
+              "bottom": 2025,
+              "left": 451,
+              "right": 612,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/reno-janet\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-78-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,9,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2009,
+              "bottom": 2025,
+              "left": 632,
+              "right": 793,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/barr-william-pelham\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-81-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,10,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2009,
+              "bottom": 2025,
+              "left": 813,
+              "right": 974,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/thornburgh-richard-lewis\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-84-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,11,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2009,
+              "bottom": 2025,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/meese-edwin-iii\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-87-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,12,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2401,
+              "bottom": 2417,
+              "left": 451,
+              "right": 612,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/smith-william-french\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-90-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,13,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2401,
+              "bottom": 2417,
+              "left": 632,
+              "right": 793,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/civiletti-benjamin-richard\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-93-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,14,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2401,
+              "bottom": 2417,
+              "left": 813,
+              "right": 974,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/bell-griffin-boyette\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-96-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,15,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2401,
+              "bottom": 2417,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/levi-edward-hirsch\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-99-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,16,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2794,
+              "bottom": 2810,
+              "left": 451,
+              "right": 612,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/saxbe-william-bart\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-102-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,17,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2794,
+              "bottom": 2810,
+              "left": 632,
+              "right": 793,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/richardson-elliot-lee\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-105-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,18,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2794,
+              "bottom": 2810,
+              "left": 813,
+              "right": 974,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/kleindienst-richard-gordon\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-108-A",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,19,LI,0,DIV,0,DIV,0,SPAN,0,A",
+            "selector": "div.grid__content > div.views-field > span.field-content > a",
+            "boundingRect": {
+              "top": 2794,
+              "bottom": 2810,
+              "left": 994,
+              "right": 1155,
+              "width": 161,
+              "height": 16
+            },
+            "snippet": "<a href=\"/ag/bio/mitchell-john-newton\" hreflang=\"en\">",
+            "nodeLabel": "div.grid__content > div.views-field > span.field-content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 17
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-214-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 179,
+              "right": 271,
+              "width": 92,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-215-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 271,
+              "right": 386,
+              "width": 115,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Our Work",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-216-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 386,
+              "right": 475,
+              "width": 89,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-217-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 475,
+              "right": 599,
+              "width": 124,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-218-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 599,
+              "right": 696,
+              "width": 97,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Grants",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-219-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 215,
+              "bottom": 286,
+              "left": 696,
+              "right": 835,
+              "width": 139,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Employment",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-220-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,0,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 440,
+              "bottom": 522,
+              "left": 195,
+              "right": 419,
+              "width": 224,
+              "height": 82
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "Meet the Attorney General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-221-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,1,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 522,
+              "bottom": 584,
+              "left": 195,
+              "right": 419,
+              "width": 224,
+              "height": 62
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-222-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,2,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 584,
+              "bottom": 646,
+              "left": 195,
+              "right": 419,
+              "width": 224,
+              "height": 62
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "Select Publications",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-223-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,3,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 646,
+              "bottom": 728,
+              "left": 195,
+              "right": 419,
+              "width": 224,
+              "height": 83
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "Attorneys General Throughout History",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-224-LI",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,4,LI",
+            "selector": "div.usa-accordion > div#usdoj-grouped-sidebar-menu-office-of-the-attorney-general > ul.usa-nav__sidebar > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 728,
+              "bottom": 790,
+              "left": 195,
+              "right": 419,
+              "width": 224,
+              "height": 62
+            },
+            "snippet": "<li class=\"usa-nav__primary-item \">",
+            "nodeLabel": "OAG FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 11
+  }
+]
