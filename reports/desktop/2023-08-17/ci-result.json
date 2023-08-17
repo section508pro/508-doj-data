@@ -1,0 +1,1410 @@
+[
+  {
+    "path": "/",
+    "score": 0.8,
+    "performance": 0.46,
+    "accessibility": 0.89,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2009-01-09-einstein",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-01-14-polygraph",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-04-15-wd-cia-interr-04",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-04-21-reagan-commn",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-05-20-rollback",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-06-01-un-delegs",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2009-08-14-einstein-reaff",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/2022-10-28-PLO-visitation",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about",
+    "score": 0.89,
+    "performance": 0.89,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/fy15-budget-and-performance",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/history/doj-seal-history-and-motto",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/history/robert-f-kennedy-main-justice-department-building",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/accessibility/accessibility-information",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/action-center",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/action-center/find-help-and-information-crime-victims",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/action-center/identify-our-most-wanted-fugitives",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/action-center/locate-prison-inmate-or-sex-offender",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/action-center/register-apply-permits-or-request-records",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/action-center/report-and-identify-missing-persons",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/action-center/report-crime-or-submit-complaint",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/action-center/report-spam",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/asset-forfeiture-investigative-support-services-afiss",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/asset-forfeiture-management-staff-chart",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/fy2021-equitable-sharing-payment-cash-and-sales-proceeds-recipient-agency-state",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/fy2022-asset-forfeiture-fund-reports-congress",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/afms/types-federal-forfeiture",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/bio/attorney-general-eric-h-holder-jr",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/bio/devens-charles",
+    "score": 0.86,
+    "performance": 0.99,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/bio/jackson-robert-houghwout",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/bio/katzenbach-nicholas-debelleville",
+    "score": 0.86,
+    "performance": 0.99,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/bio/mcgrath-james-howard",
+    "score": 0.86,
+    "performance": 0.99,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/bio/mitchell-william-dewitt",
+    "score": 0.79,
+    "performance": 0.71,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/bio/sargent-john-garibaldi",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/bio/stanbery-henry",
+    "score": 0.8,
+    "performance": 0.72,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/oag-freedom-information-act",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/select-publications",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/speech/attorney-general-eric-holder-testifies-financial-crisis-inquiry-commission",
+    "score": 0.81,
+    "performance": 0.64,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/speeches-attorney-general-alberto-r-gonzales",
+    "score": 0.82,
+    "performance": 0.68,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/speeches-attorney-general-benjamin-richard-civiletti",
+    "score": 0.84,
+    "performance": 0.74,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/speeches-attorney-general-elliot-lee-richardson",
+    "score": 0.84,
+    "performance": 0.76,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/speeches-attorney-general-john-newton-mitchell",
+    "score": 0.84,
+    "performance": 0.74,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/speeches-attorney-general-robert-f-kennedy",
+    "score": 0.81,
+    "performance": 0.63,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/speeches-attorney-general-thomas-campbell-clark",
+    "score": 0.83,
+    "performance": 0.72,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/staff-profile/meet-attorney-general",
+    "score": 0.84,
+    "performance": 0.74,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/staff-profile/speeches-attorney-general-eric-h-holder-jr",
+    "score": 0.8,
+    "performance": 0.73,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/staff-profile/speeches-attorney-general-jeff-sessions",
+    "score": 0.83,
+    "performance": 0.72,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ag/staff-profile/speeches-attorney-general-loretta-e-lynch",
+    "score": 0.8,
+    "performance": 0.73,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ag/staff-profile/speeches-attorney-general-william-barr",
+    "score": 0.82,
+    "performance": 0.69,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/agencies/alphabetical-listing-components-programs-initiatives",
+    "score": 0.87,
+    "performance": 0.97,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/agencies/chart",
+    "score": 0.87,
+    "performance": 0.98,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/agencies/organizational-chart-text-version",
+    "score": 0.84,
+    "performance": 0.68,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/am/opa/pr/justice-department-announces-new-language-access-law-enforcement-initiative",
+    "score": 0.79,
+    "performance": 0.57,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ar/hatecrimes/report-a-hate-crime",
+    "score": 0.81,
+    "performance": 0.64,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ar/opa/pr/attorney-general-merrick-garland-issues-memorandum-improve-access-services-people-limited",
+    "score": 0.82,
+    "performance": 0.66,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ar/opa/pr/justice-department-announces-final-resolution-language-access-civil-rights-matter-fort-bend",
+    "score": 0.81,
+    "performance": 0.64,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ar/opa/pr/justice-department-announces-new-language-access-law-enforcement-initiative",
+    "score": 0.79,
+    "performance": 0.57,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ar/opa/pr/justice-department-resolves-language-access-matter-concerning-louisiana-supreme-court",
+    "score": 0.78,
+    "performance": 0.53,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ar/opa/pr/justice-department-settles-language-access-and-retaliation-investigation-courts-fort-bend",
+    "score": 0.81,
+    "performance": 0.62,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ar/opa/pr/white-house-legal-aid-interagency-roundtable-issues-report-president",
+    "score": 0.81,
+    "performance": 0.62,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/ar/usao-edny/pr-4",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/ar/usao-edny/pr-8",
+    "score": 0.81,
+    "performance": 0.58,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/about/congressional-budget-submission-2015",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/about/congressional-budget-submission-2016",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/about/congressional-communications",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/about/fy15-budget-fact-sheets",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/about/fy16-budget-and-performance",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/about/FY2014-exhibit-300s",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/about/fy2015-exhibit-300s",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/about/fy2016-exhibit-300s",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/05-09-01-statement-attorney-general-john-ashcroft-united-states-senate",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/advancing-justice-through-dna-technology-table-contents",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/appendix-5-significant-contraband-incidents-neocc-shakedown-reports-fiscal-year-1997-and-1998-0",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/attorney-general-order-no-1931-94-investigation-allegations-misconduct-justice-department",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/attorney-generals-guidelines-general-crimes-racketeering-enterprise-and-domestic",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/community-policing-award/2016-recipients",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/consolidating-statements-changes-net-position",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/documents",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/presidential-commission-law-enforcement-and-administration-justice/commissioners",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/presidential-commission-law-enforcement-and-administration-justice/correspondence",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/presidential-commission-law-enforcement-and-administration-justice/hearings",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/presidential-commission-law-enforcement-and-administration-justice/working-groups",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/staff-profile/former-acting-attorney-general-matthew-g-whitaker",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/ag/statement-facts",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/office-associate-attorney-general-archive",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/office-associate-attorney-general-archived-speeches",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/staff-profile/former-acting-associate-attorney-general-matthew-colangelo",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/staff-profile/former-associate-attorney-general-rachel-brand",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/staff-profile/former-associate-attorney-general-tony-west",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/staff-profile/former-principal-deputy-associate-attorney-general-claire-mccusker-murray",
+    "score": 0.93,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/staff-profile/former-principal-deputy-associate-attorney-general-jesse-panuccio",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/staff-profile/former-principal-deputy-associate-attorney-general-william-j-baer",
+    "score": 0.92,
+    "performance": 0.94,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/asg/stuart delery former acting associate attorney general",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atj/access-justice-international-forums",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/atj/contact-access-justice",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atj/court-filings-support-access-justice",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atj/department-justice-50th-anniversary-activities",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atj/grant-information",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atj/idp",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atj/inclusive-criminal-justice-system-planning",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atj/staff-profile/former-director-lisa-foster",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atj/supporting-federal-efforts",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/1982-merger-guidelines",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/20th-anniversary-1982-merger-guidelines",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/blog/bringing-down-house",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/blog/justice-department-s-procurement-collusion-strike-force-caps-successful-inaugural-year",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-appendix",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/dojantitrust-0",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/events/public-roundtable-antitrust-criminal-penalty-enhancement-reform-act-acpera/gallery",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/gallery/assistant-attorney-general-makan-delrahim-delivers-remarks-antitrust-division-s-first",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/gallery/assistant-attorney-general-makan-delrahim-meets-students-communities-schools-atlanta",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/gallery/beijing-american-center-us-embassy-beijing-china",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/gallery/deputy-assistant-attorney-general-roger-alford-delivers-remarks-kings-college-london",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/gallery/doj-antitrust-chief-makan-delrahim-meet-high-level-officials-colleagues-europe",
+    "score": 0.93,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/gallery/roundtable-antitrust-consent-decrees",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/gallery/us-department-justice-antitrust-division-division-update-spring-2010",
+    "score": 0.92,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/gallery/us-department-justice-antitrust-division-international-program",
+    "score": 0.92,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/press-statement-0",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/press-statement-1",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/press-statement/358198",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/press-statement/363545",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/press-statement/379582",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/staff-profile/former-acting-assistant-attorney-general-john-w-clark",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/staff-profile/former-assistant-attorney-general-edwin-m-zimmerman",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/staff-profile/former-assistant-attorney-general-james-f-rill",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/staff-profile/former-assistant-attorney-general-victor-r-hansen",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/staff-profile/former-assistant-attorney-general-william-f-baxter",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/staff-profile/former-deputy-assistant-attorney-general-douglas-melamed",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/staff-profile/gene-i-kimmelman-former-chief-counsel-competition-policy-and-intergovernmental",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/usdoj-antitrust-division-1990-press-releases",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/atr/usdoj-antitrust-division-1998-press-releases",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/civil/civil-division-archive",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/civil/staff-profile/former-assistant-attorney-general-joseph-h-jody-hunt",
+    "score": 0.94,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/civil/staff-profile/former-principal-deputy-assistant-attorney-general-benjamin-c-mizer",
+    "score": 0.93,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal-disasters/hurricane-katrina-press-releases-speeches-and-testimony-january-2008",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-disasters/hurricane-katrina-press-releases-speeches-and-testimony-march-2006",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-disasters/hurricane-katrina-press-releases-speeches-and-testimony-may-2008",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-disasters/hurricane-katrina-press-releases-speeches-and-testimony-november-2009",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-disasters/hurricane-katrina-press-releases-speeches-and-testimony-october-2006",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-disasters/hurricane-katrina-press-releases-speeches-and-testimony-october-2007",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-disasters/hurricane-katrina-press-releases-speeches-and-testimony-october-2008",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-disasters/hurricane-katrina-press-releases-speeches-and-testimony-september-2006",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-oilspill/how-report-fraud",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal-oilspill/how-submit-oil-spill-claims",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal-oilspill/national-center-disaster-fraud-ncdf",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal-oilspill/related-fraud-links",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal-vns/case/EarthWater/update",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-vns/case/jiongsheng-jim-zhao/update",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal-vns/case/kamaldeep-gandhi/update",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-vns/case/krishna-mohan/update",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal-vns/case/navinder-sarao/update",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal-vns/case/SAPA/update",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/archives/criminal/asset-forfeiture-and-money-laundering-sections",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal/blog/indonesia-icitap-s-national-training-reform-project-facilitates-digital-skills",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal/child-exploitation-and-obscenity-section",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal/computer-crime-and-intellectual-property-section",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal/criminal-division-archive",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal/disaster-fraud-task-force",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives/criminal/international-criminal-investigative-training-assistance-program",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/NDALInterships",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/United States v. Dukes Brief as Appellee",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/USAO-CT/CT-22-007",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/USAO-CT/CT-22-008",
+    "score": 0.83,
+    "performance": 0.65,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/USAO-NDTX/DV",
+    "score": 0.86,
+    "performance": 0.76,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/Andrew-B-Birge",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2021_0917_TAP",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2021_1105_Hernandez",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0311_Gagne",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0505_Totten",
+    "score": 0.81,
+    "performance": 0.57,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0525_Munafo",
+    "score": 0.83,
+    "performance": 0.64,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0526_Sixth_Street",
+    "score": 0.92,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0608_Peterson",
+    "score": 0.83,
+    "performance": 0.64,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/Usao-wdmi/pr/2022_0727_Talsma",
+    "score": 0.82,
+    "performance": 0.61,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.83
+  }
+]

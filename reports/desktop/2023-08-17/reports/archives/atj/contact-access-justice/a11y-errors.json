@@ -1,0 +1,54 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-103-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,P,1,A,1,SPAN",
+            "selector": "div.field__item > p > a.ext > span.ext",
+            "boundingRect": {
+              "top": 456,
+              "bottom": 468,
+              "left": 921,
+              "right": 933,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

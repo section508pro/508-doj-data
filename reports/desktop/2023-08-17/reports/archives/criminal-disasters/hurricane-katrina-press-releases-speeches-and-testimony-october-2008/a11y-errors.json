@@ -1,0 +1,129 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 413,
+              "bottom": 432,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-113-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 571,
+              "bottom": 589,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-114-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,10,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 729,
+              "bottom": 747,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-115-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 887,
+              "bottom": 905,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-116-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,18,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 1044,
+              "bottom": 1062,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]

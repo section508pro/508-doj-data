@@ -1,0 +1,3134 @@
+[
+  {
+    "id": "accesskeys",
+    "title": "`[accesskey]` values are unique",
+    "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-hidden-body",
+    "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+    "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn more](https://web.dev/aria-hidden-body/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements do not contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-meter-name",
+    "title": "ARIA `meter` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-progressbar-name",
+    "title": "ARIA `progressbar` elements have accessible names",
+    "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-attr",
+    "title": "`[role]`s have all required `[aria-*]` attributes",
+    "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-roles",
+    "title": "`[role]` values are valid",
+    "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-toggle-field-name",
+    "title": "ARIA toggle fields have accessible names",
+    "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-tooltip-name",
+    "title": "ARIA `tooltip` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-treeitem-name",
+    "title": "ARIA `treeitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-valid-attr",
+    "title": "`[aria-*]` attributes are valid and not misspelled",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://web.dev/aria-valid-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "button-name",
+    "title": "Buttons have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "bypass",
+    "title": "The page contains a heading, skip link, or landmark region",
+    "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors have a sufficient contrast ratio",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-103-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,5,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 638,
+              "bottom": 656,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Assistant Attorney General, Antitrust Division, U.S. Department of Justice",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-104-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,7,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 700,
+              "bottom": 719,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Business Economics, University of Chicago Graduate School of Busin…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-105-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,9,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 763,
+              "bottom": 781,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Ben V. & Dorothy Willie Distinguished Professor of Law, University of Iowa Coll…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-106-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,11,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 825,
+              "bottom": 843,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Chairman, Federal Trade Commission",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-107-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,16,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1030,
+              "bottom": 1049,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Barbara and David Zalaznick Professor of Business, Columbia University Business…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-108-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,18,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1093,
+              "bottom": 1111,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Robert C. Taylor Professor of Economics, University of Virginia",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,20,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1155,
+              "bottom": 1173,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilmer Cutler Pickering Hale and Dorr LLP; former Acting Assistant Att…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-110-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,22,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1218,
+              "bottom": 1236,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics, New York University; former Deputy Assistant Attorney G…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-111-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,25,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1320,
+              "bottom": 1338,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics and Public Policy, University of Maryland, Baltimore Cou…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,27,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1382,
+              "bottom": 1400,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Law, Seattle University School of Law; former Assistant Director, …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-113-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,29,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1444,
+              "bottom": 1463,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Hogan & Hartson LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-114-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,31,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1507,
+              "bottom": 1525,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics and Law, Georgetown University Law Center",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-115-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,33,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1569,
+              "bottom": 1587,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Principal, Microeconomic Consulting & Research Associates, Inc.; former Deputy …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-116-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,37,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1735,
+              "bottom": 1753,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilmer Cutler Pickering Hale and Dorr LLP; former Deputy Assistant Att…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-117-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,39,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1797,
+              "bottom": 1815,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Hunton & Williams LLP; former Assistant Attorney General, Antitrust Di…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-118-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,41,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1860,
+              "bottom": 1896,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Joseph and Madeline Sheehy Professor in Antitrust and Trade Regulation Law, Geo…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-119-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,43,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 1940,
+              "bottom": 1958,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics and Law, Georgetown University Law Center",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-120-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,45,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2002,
+              "bottom": 2021,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Director, Economic Policy Analysis, General Motors Corporation",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-121-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,47,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2065,
+              "bottom": 2083,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Counsel, Competition Law & Policy, General Electric Company; former Depu…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-122-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,52,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2270,
+              "bottom": 2288,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Director General for Competition, European Commission",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-123-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,54,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2332,
+              "bottom": 2351,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Deputy Secretary General, General Secretariat, Japan Fair Trade Commission",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-124-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,56,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2395,
+              "bottom": 2413,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "President, Mexican Federal Competition Commission",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-125-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,58,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2457,
+              "bottom": 2475,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Commissioner of Competition, Canadian Competition Bureau",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-126-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,61,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2559,
+              "bottom": 2578,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Davies Ward Phillips & Vineberg LLP; former Commissioner of Competitio…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-127-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,63,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2622,
+              "bottom": 2640,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Visiting Professor, School of Law, King's College London; Senior Consultant, Fr…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-128-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,65,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2684,
+              "bottom": 2702,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Head of Antitrust, Royal Philips Electronics N.V.",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,67,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2746,
+              "bottom": 2765,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Howrey LLP; former Assistant Attorney General, Antitrust Division, U.S…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-130-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,71,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2912,
+              "bottom": 2930,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Law, Washington College of Law, American University; former Direct…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-131-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,73,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 2974,
+              "bottom": 3011,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "William C. and Margaret W. Oehmig Associate Professor in Entrepreneurship and F…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-132-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,75,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3055,
+              "bottom": 3073,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Head of the Department of Economics, Co-Director of the Center for the Study of…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-133-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,77,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3117,
+              "bottom": 3136,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Associate Professor of Economics, The George Washington University",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,79,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3180,
+              "bottom": 3198,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Principal, CRA International Inc.",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-135-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,81,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3242,
+              "bottom": 3278,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor Emeritus of Public Policy and Corporate Management in the Aetna Chair…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-136-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,83,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3323,
+              "bottom": 3341,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Fellow in Economic Studies, The Brookings Institution",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,88,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3528,
+              "bottom": 3546,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "University Research Professor of History and Law, University of Alabama School …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-138-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,90,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3590,
+              "bottom": 3608,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of History, Johns Hopkins University; President of the Business Histo…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-139-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,92,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3653,
+              "bottom": 3671,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Law, Washington College of Law, American University",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,94,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3715,
+              "bottom": 3733,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Clinical Professor of Economics, Entrepreneurship and Innovation, Leonard N. St…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,97,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3817,
+              "bottom": 3835,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Vice President, Sales and Marketing Group, Intel Corporation",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,99,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3880,
+              "bottom": 3898,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "William S. Woodside Professor and Professor of Marketing, The Wharton School, U…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,101,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 3942,
+              "bottom": 3978,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Adjunct Professor of Business Strategy and Marketing, Owen Graduate School of M…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,103,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4022,
+              "bottom": 4041,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Clinical Professor of Economics, Entrepreneurship and Innovation, Leonard N. St…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-145-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,107,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4188,
+              "bottom": 4206,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Visiting Professor, Faculty of Laws, University College London; Vice Chairman, …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-146-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,109,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4250,
+              "bottom": 4269,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Associate Professor of Law, Hastings College of the Law, University of Californ…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,111,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4313,
+              "bottom": 4331,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Adjunct Professor, Georgetown University Law Center; Partner, Kaye Scholer LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,113,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4375,
+              "bottom": 4393,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Robbins, Russell, Englert, Orseck & Untereiner LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,115,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4438,
+              "bottom": 4456,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Charles H. Dyson Professor of Management and Professor of Economics, Cornell Un…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,117,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4500,
+              "bottom": 4536,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics and Public Affairs, Woodrow Wilson School, Princeton Uni…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,121,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4684,
+              "bottom": 4769,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 86
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Law and Director of Graduate Studies, Wayne State University Law S…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,123,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4814,
+              "bottom": 4832,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilson Sonsini Goodrich & Rosati PC",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,125,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4876,
+              "bottom": 4894,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor Emeritus, Department of Economics, University of California, Los Ange…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,127,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 4938,
+              "bottom": 4956,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Latham & Watkins LLP; former Deputy Assistant Attorney General, Antitr…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,129,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5001,
+              "bottom": 5019,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics, Department of Economics, The Ohio State University; Pro…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,131,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5063,
+              "bottom": 5081,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Mayer, Brown, Rowe & Maw LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-157-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,133,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5125,
+              "bottom": 5144,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Assistant Professor of Accountancy, The George Washington University",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,135,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5188,
+              "bottom": 5206,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Assistant Professor of Law, George Mason University School of Law",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,139,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5353,
+              "bottom": 5372,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Associate Professor of Law, Benjamin N. Cardozo School of Law, Yeshiva Universi…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-160-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,141,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5416,
+              "bottom": 5434,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Gibson, Dunn & Crutcher LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-161-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,143,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5478,
+              "bottom": 5496,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Associate Professor of Law, University of Missouri School of Law",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-162-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,145,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5540,
+              "bottom": 5577,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "George Mason University Foundation Professor of Law, George Mason University Sc…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-163-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,147,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5621,
+              "bottom": 5639,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Milton Steinbach Professor of Management, Yale University School of Management",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-164-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,149,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5683,
+              "bottom": 5702,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics, New York University; former Deputy Assistant Attorney G…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-165-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,151,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5746,
+              "bottom": 5782,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "John T. Stuart III Centennial Professor in Economics, University of Texas at Au…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-166-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,153,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5826,
+              "bottom": 5845,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Morgan, Lewis & Bockius LLP; former Deputy Director, Bureau of Competi…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-167-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,157,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 5992,
+              "bottom": 6010,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Adjunct Professor of Law, University of Maryland School of Law; Partner, Fromme…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-168-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,159,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6054,
+              "bottom": 6072,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Cleary Gottlieb Steen & Hamilton LLP; former Deputy Director, Bureau o…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-169-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,161,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6117,
+              "bottom": 6135,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilson Sonsini Goodrich & Rosati PC; former Director, Bureau of Compet…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,163,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6179,
+              "bottom": 6197,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "J. Stanley Johnson Professor of Business Economics and Management, California I…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-171-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,165,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6241,
+              "bottom": 6260,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Director of Antitrust and Competition at Cisco Systems, Inc.",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-172-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,167,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6304,
+              "bottom": 6322,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Vice President, NERA Economic Consulting",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-173-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,171,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6469,
+              "bottom": 6487,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Vice President of Business Affairs, General Counsel, and Secretary, Broa…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,173,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6532,
+              "bottom": 6550,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Haglund Kelley Horngren Jones & Wilder LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-175-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,175,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6594,
+              "bottom": 6612,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Vice President and Division Counsel for the Technology Licensing Divisio…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-176-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,177,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6656,
+              "bottom": 6675,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Vice President and Deputy General Counsel for Antitrust, Microsoft Corporation",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-177-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,179,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6719,
+              "bottom": 6737,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Executive Vice President of Legal Affairs and Chief Administrative Officer, Adv…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-178-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,181,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6781,
+              "bottom": 6799,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Counsel, Hewlett-Packard Company",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-179-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,183,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 6844,
+              "bottom": 6862,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Drinker Biddle & Reath LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,187,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7045,
+              "bottom": 7082,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Landau Professor in Technology and the Economy, Department of Economics, Stanfo…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-181-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,189,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7126,
+              "bottom": 7144,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Richard Jennings Professor of Law, University of California, Berkeley",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-182-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,191,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7188,
+              "bottom": 7207,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics, University of California, Berkeley; former Deputy Assis…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-183-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,193,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7251,
+              "bottom": 7287,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics, University of California, Berkeley; Chair, Competition …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-184-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,195,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7331,
+              "bottom": 7368,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Robert L. Bridges Professor of Law and Professor of Economics, University of Ca…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-185-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,197,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7412,
+              "bottom": 7448,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "TransAmerica Professor of Business Strategy, Professor of Economics, Director o…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-186-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,199,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7492,
+              "bottom": 7511,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Associate Dean and Professor of Law, University of California, Berkeley; Direct…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-187-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,203,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7676,
+              "bottom": 7694,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Attorney on behalf of the Generic Pharmaceutical Association",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-188-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,205,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7739,
+              "bottom": 7757,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Executive Director for Global Regulatory Cooperation, U.S. Chamber of Commerce",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-189-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,207,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7801,
+              "bottom": 7819,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Vice President and General Counsel, Intel Corporation",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-190-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,209,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7863,
+              "bottom": 7881,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Chief Compliance Officer, Eastman Kodak Company",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-191-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,211,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7926,
+              "bottom": 7944,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Vice President and Senior Competition Counsel, General Electric Company",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-192-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,213,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 7988,
+              "bottom": 8006,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Associate General Counsel, American Airlines, Inc.",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-193-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,217,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8190,
+              "bottom": 8208,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner and Co-Founder, RBB Economics",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-194-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,219,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8252,
+              "bottom": 8270,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Law, Howard University School of Law",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,221,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8315,
+              "bottom": 8351,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics, University of California, Berkeley; Chair, Competition …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-196-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,223,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8395,
+              "bottom": 8432,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Sarin Chair in Strategy and Leadership, Haas School of Business, University of …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-197-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,225,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8476,
+              "bottom": 8494,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Of Counsel, Wilson Sonsini Goodrich & Rosati PC",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,227,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8538,
+              "bottom": 8556,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Member, Chief Economist Team, Directorate General for Competition, European Com…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,229,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8601,
+              "bottom": 8619,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Principal, Economists Inc.; former Assistant Director for Competition Analysis,…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,231,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8663,
+              "bottom": 8681,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Paul, Weiss, Rifkind, Wharton & Garrison LLP; former Director, Bureau …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-201-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,233,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8725,
+              "bottom": 8743,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Jones Day; former Deputy Assistant Attorney General, Antitrust Divisio…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-202-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,235,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8788,
+              "bottom": 8806,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Director of Economic Policy Studies and Senior Fellow, Hudson Institute",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-203-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,237,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 8850,
+              "bottom": 8886,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Arthur E. Imperatore Professor of Economics, Leonard N. Stern School of Busines…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-204-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,241,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9034,
+              "bottom": 9052,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Associate Professor, University of North Carolina School of Law",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-205-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,243,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9096,
+              "bottom": 9114,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Venable Professor of Law, University of Baltimore School of Law",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-206-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,245,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9159,
+              "bottom": 9177,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "John C. Head III Dean and Professor of Economics and Management, Sloan School o…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-207-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,247,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9221,
+              "bottom": 9239,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Sonnenschein Nath & Rosenthal LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-208-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,249,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9283,
+              "bottom": 9301,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Director, ERS Group",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-209-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,254,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9486,
+              "bottom": 9505,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Fellow in Economic Studies, The Brookings Institution",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-210-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,256,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9549,
+              "bottom": 9567,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Vice President and Deputy General Counsel for Antitrust, Microsoft Corporation",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-211-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,258,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9611,
+              "bottom": 9629,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Chief of Unit C-3, Directorate General for Competition, European Commission",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-212-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,260,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9673,
+              "bottom": 9692,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Latham & Watkins LLP; former Deputy Assistant Attorney General, Antitr…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-213-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,264,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9825,
+              "bottom": 9843,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "James Parker Hall Distinguished Service Professor of Law, Faculty Director for …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-214-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,266,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9887,
+              "bottom": 9906,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Jane Berkowitz Carlton and Dennis W. Carlton Professor of Microeconomics, Emeri…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-215-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,268,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 9950,
+              "bottom": 9968,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Vice President, NERA Economic Consulting; former Deputy Assistant Attorn…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-216-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,270,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10012,
+              "bottom": 10030,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Head of the Task Force on Ex Post Assessment of Merger Decisions, Directorate G…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-217-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,272,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10074,
+              "bottom": 10093,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Senior Vice President and Deputy General Counsel, Verizon Communications Inc.",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-218-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,276,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10240,
+              "bottom": 10258,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "General Counsel, Red Hat Inc.",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-219-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,278,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10302,
+              "bottom": 10321,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilson Sonsini Goodrich & Rosati PC",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-220-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,280,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10365,
+              "bottom": 10383,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Law, Seton Hall Law School",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-221-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,282,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10427,
+              "bottom": 10445,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Marshall M. Criser Eminent Scholar, Levin College of Law, University of Florida",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-222-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,284,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10489,
+              "bottom": 10508,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Associate Dean and Professor of Law, University of California, Berkeley; Direct…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-223-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,288,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10655,
+              "bottom": 10673,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Arnold & Porter LLP; former Director, Bureau of Competition, Federal T…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-224-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,290,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10717,
+              "bottom": 10736,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Law, Washington College of Law, American University; former Direct…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-225-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,292,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10780,
+              "bottom": 10816,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Law and Director of Graduate Studies, Wayne State University Law S…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-226-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,294,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10860,
+              "bottom": 10879,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Carroll and Milton Petrie Professor of Law and Director of the Petrie-Flom Cent…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-227-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,296,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10923,
+              "bottom": 10941,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilson Sonsini Goodrich & Rosati PC",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-228-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,298,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 10985,
+              "bottom": 11003,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilmer Cutler Pickering Hale and Dorr LLP; former Deputy Assistant Att…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-229-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,300,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11047,
+              "bottom": 11066,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Of Counsel, Wilson Sonsini Goodrich & Rosati PC",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-230-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,302,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11110,
+              "bottom": 11128,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Hogan & Hartson LLP",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-231-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,304,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11172,
+              "bottom": 11209,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Professor of Economics and Public Affairs, Woodrow Wilson School, Princeton Uni…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-232-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,308,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11356,
+              "bottom": 11374,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilson Sonsini Goodrich & Rosati PC; former Director, Bureau of Compet…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-233-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,310,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11418,
+              "bottom": 11436,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Chairman, Criterion Economics, L.L.C.; former Special Advisor for Economic Poli…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-234-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,312,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11481,
+              "bottom": 11499,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Wilmer Cutler Pickering Hale and Dorr LLP; former Acting Assistant Att…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,314,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11543,
+              "bottom": 11579,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "George Mason University Foundation Professor of Law, George Mason University Sc…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-236-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,316,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11624,
+              "bottom": 11660,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 36
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Joseph and Madeline Sheehy Professor in Antitrust and Trade Regulation Law, Geo…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,318,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11704,
+              "bottom": 11722,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Howrey LLP; former Assistant Attorney General, Antitrust Division, U.S…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-238-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,320,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11767,
+              "bottom": 11785,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Partner, Cadwalader, Wickersham & Taft LLP; former Assistant Attorney General, …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-239-DL",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD,322,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 11829,
+              "bottom": 11847,
+              "left": 202,
+              "right": 1149,
+              "width": 947,
+              "height": 18
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Visiting Professor of Law, Georgetown University Law Center; Founder, Criterion…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 137
+  },
+  {
+    "id": "dlitem",
+    "title": "Definition list items are wrapped in `<dl>` elements",
+    "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "document-title",
+    "title": "Document has a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "form-field-multiple-labels",
+    "title": "No form fields have multiple labels",
+    "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn more](https://web.dev/form-field-multiple-labels/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements appear in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element has a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "html-lang-valid",
+    "title": "`<html>` element has a valid value for its `[lang]` attribute",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "input-image-alt",
+    "title": "`<input type=\"image\">` elements have `[alt]` text",
+    "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "label",
+    "title": "Form elements have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "link-name",
+    "title": "Links have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "list",
+    "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are contained within `<ul>` or `<ol>` parent elements",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "meta-refresh",
+    "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+    "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "object-alt",
+    "title": "`<object>` elements have alternate text",
+    "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "tabindex",
+    "title": "No element has a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "td-headers-attr",
+    "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "th-has-data-cells",
+    "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "valid-lang",
+    "title": "`[lang]` attributes have a valid value",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "video-caption",
+    "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+    "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "logical-tab-order",
+    "title": "The page has a logical tab order",
+    "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://web.dev/logical-tab-order/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focusable-controls",
+    "title": "Interactive controls are keyboard focusable",
+    "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://web.dev/focusable-controls/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "interactive-element-affordance",
+    "title": "Interactive elements indicate their purpose and state",
+    "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://web.dev/interactive-element-affordance/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "managed-focus",
+    "title": "The user's focus is directed to new content added to the page",
+    "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://web.dev/managed-focus/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focus-traps",
+    "title": "User focus is not accidentally trapped in a region",
+    "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://web.dev/focus-traps/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-labels",
+    "title": "Custom controls have associated labels",
+    "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://web.dev/custom-controls-labels/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-roles",
+    "title": "Custom controls have ARIA roles",
+    "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://web.dev/custom-control-roles/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "visual-order-follows-dom",
+    "title": "Visual order on the page follows DOM order",
+    "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://web.dev/visual-order-follows-dom/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "offscreen-content-hidden",
+    "title": "Offscreen content is hidden from assistive technology",
+    "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://web.dev/offscreen-content-hidden/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "use-landmarks",
+    "title": "HTML5 landmark elements are used to improve navigation",
+    "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://web.dev/use-landmarks/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  }
+]

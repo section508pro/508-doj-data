@@ -1,0 +1,483 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-189-DIV",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV",
+            "selector": "div.field__items > div.slick-list > div.slick-track > div#slick-slide03",
+            "boundingRect": {
+              "top": 285,
+              "bottom": 721,
+              "left": -675,
+              "right": 317,
+              "width": 992,
+              "height": 436
+            },
+            "snippet": "<div class=\"field__item slick-slide\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"0\" role=\"tabpanel\" id=\"slick-slide03\" aria-describedby=\"slick-slide-control03\" style=\"width: 992px;\">",
+            "nodeLabel": "PRESS RELEASE\nCorficolombiana to Pay $80M to Resolve Foreign Bribery Investigat…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "45-42-A",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,0,A",
+                  "selector": "div#slick-slide03 > article > div.hero-wrapper > a",
+                  "boundingRect": {
+                    "top": 285,
+                    "bottom": 721,
+                    "left": -675,
+                    "right": 317,
+                    "width": 992,
+                    "height": 436
+                  },
+                  "snippet": "<a href=\"https://www.justice.gov/opa/pr/corficolombiana-pay-80m-resolve-foreign-bri…\" tabindex=\"0\">",
+                  "nodeLabel": "Department of Justice Seal"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "45-43-A",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,1,DIV,1,H2,0,DIV,0,DIV,0,A",
+                  "selector": "h2 > div > div.field-formatter--link > a",
+                  "boundingRect": {
+                    "top": 373,
+                    "bottom": 459,
+                    "left": -591,
+                    "right": -252,
+                    "width": 339,
+                    "height": 86
+                  },
+                  "snippet": "<a href=\"https://www.justice.gov/opa/pr/corficolombiana-pay-80m-resolve-foreign-bri…\" tabindex=\"0\">",
+                  "nodeLabel": "Corficolombiana to Pay $80M to Resolve Foreign Bribery Investigations"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-190-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 239,
+              "bottom": 256,
+              "left": 195,
+              "right": 255,
+              "width": 60,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-191-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 237,
+              "bottom": 260,
+              "left": 295,
+              "right": 362,
+              "width": 67,
+              "height": 23
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Our Work",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-192-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 239,
+              "bottom": 256,
+              "left": 402,
+              "right": 459,
+              "width": 57,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-193-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 239,
+              "bottom": 256,
+              "left": 491,
+              "right": 583,
+              "width": 92,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-194-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI,0,A,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > a.usa-nav__link > span.no_menu_link_imaged__title",
+            "boundingRect": {
+              "top": 237,
+              "bottom": 260,
+              "left": 623,
+              "right": 672,
+              "width": 49,
+              "height": 23
+            },
+            "snippet": "<span class=\"no_menu_link_imaged__title\" role=\"listitem\">",
+            "nodeLabel": "Grants",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-195-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI,0,BUTTON,0,SPAN",
+            "selector": "ul.usa-nav__primary > li.usa-nav__primary-item > button.usa-accordion__button > span",
+            "boundingRect": {
+              "top": 239,
+              "bottom": 256,
+              "left": 712,
+              "right": 819,
+              "width": 107,
+              "height": 17
+            },
+            "snippet": "<span role=\"listitem\">",
+            "nodeLabel": "Employment",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: list, group"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-196-UL",
+            "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV,1,DIV,0,UL",
+            "selector": "div > div.most-wanted-view > div.item-list > ul.slick-initialized",
+            "boundingRect": {
+              "top": 4328,
+              "bottom": 5017,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 689
+            },
+            "snippet": "<ul class=\"slick-initialized slick-slider slick-dotted\">",
+            "nodeLabel": "Alejandro Rosales Castillo\nFBI Field Office: Charlotte\nWanted For: Alejandro Ro…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "45-197-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.most-wanted-view > div.item-list > ul.slick-initialized > div.slick-list",
+                  "boundingRect": {
+                    "top": 4328,
+                    "bottom": 4995,
+                    "left": 195,
+                    "right": 1155,
+                    "width": 960,
+                    "height": 667
+                  },
+                  "snippet": "<div class=\"slick-list draggable\">",
+                  "nodeLabel": "Alejandro Rosales Castillo\nFBI Field Office: Charlotte\nWanted For: Alejandro Ro…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "45-198-UL",
+                  "path": "1,HTML,1,BODY,3,DIV,2,MAIN,2,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV,1,DIV,0,UL,1,UL",
+                  "selector": "div.most-wanted-view > div.item-list > ul.slick-initialized > ul.slick-dots",
+                  "boundingRect": {
+                    "top": 4995,
+                    "bottom": 5017,
+                    "left": 195,
+                    "right": 1155,
+                    "width": 960,
+                    "height": 22
+                  },
+                  "snippet": "<ul class=\"slick-dots\" style=\"\" role=\"tablist\">",
+                  "nodeLabel": "1234"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-199-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,0,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 213,
+              "bottom": 284,
+              "left": 179,
+              "right": 271,
+              "width": 92,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-200-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,1,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 213,
+              "bottom": 284,
+              "left": 271,
+              "right": 386,
+              "width": 115,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Our Work",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-201-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,2,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 213,
+              "bottom": 284,
+              "left": 386,
+              "right": 475,
+              "width": 89,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-202-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,3,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 213,
+              "bottom": 284,
+              "left": 475,
+              "right": 599,
+              "width": 124,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-203-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,4,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 213,
+              "bottom": 284,
+              "left": 599,
+              "right": 696,
+              "width": 97,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Grants",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-204-LI",
+            "path": "1,HTML,1,BODY,3,DIV,1,HEADER,4,LABEL,1,NAV,0,DIV,0,UL,5,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 213,
+              "bottom": 284,
+              "left": 696,
+              "right": 835,
+              "width": 139,
+              "height": 71
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Employment",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

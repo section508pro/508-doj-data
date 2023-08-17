@@ -1,0 +1,148 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-115-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,TABLE,1,TBODY,0,TR,0,TD,1,SPAN,0,A,1,SPAN",
+            "selector": "td.views-field > span.tablesaw-cell-content > a.ext > span.ext",
+            "boundingRect": {
+              "top": 562,
+              "bottom": 574,
+              "left": 312,
+              "right": 324,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-116-SPAN",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,TABLE,1,TBODY,1,TR,0,TD,1,SPAN,0,A,1,SPAN",
+            "selector": "td.views-field > span.tablesaw-cell-content > a.ext > span.ext",
+            "boundingRect": {
+              "top": 662,
+              "bottom": 674,
+              "left": 258,
+              "right": 270,
+              "width": 12,
+              "height": 12
+            },
+            "snippet": "<span class=\"ext\" aria-label=\"(link is external)\">",
+            "nodeLabel": "(link is external)",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-44-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,TABLE,1,TBODY,1,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr.even > td.views-field > span.tablesaw-cell-content > a.ext",
+            "boundingRect": {
+              "top": 625,
+              "bottom": 677,
+              "left": 204,
+              "right": 388,
+              "width": 184,
+              "height": 51
+            },
+            "snippet": "<a href=\"http://www.nlada.org/defender-standards/model-contract\" class=\"ext extlink\">",
+            "nodeLabel": "NLADA Interim Report: National Survey of Indigent Defense Systems ",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-117-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,TABLE,1,TBODY,1,TR",
+                  "selector": "div.view-content > table#tablesaw-9457 > tbody > tr.even",
+                  "boundingRect": {
+                    "top": 617,
+                    "bottom": 717,
+                    "left": 195,
+                    "right": 1155,
+                    "width": 960,
+                    "height": 100
+                  },
+                  "snippet": "<tr class=\"even views-row-last\">",
+                  "nodeLabel": "NLADA Interim Report: National Survey of Indigent Defense Systems \tIra Mickenbe…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

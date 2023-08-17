@@ -1,0 +1,77 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-106-STRONG",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,2,DIV,1,DIV,0,UL,1,LI,0,A,0,STRONG",
+            "selector": "ul.horizontal-tabs-list > li.horizontal-tab-button > a > strong",
+            "boundingRect": {
+              "top": 720,
+              "bottom": 735,
+              "left": 271,
+              "right": 328,
+              "width": 57,
+              "height": 15
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Blog posts",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.14 (foreground color: #8c6e20, background color: #eeeeee, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-107-LI",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,2,DIV,1,DIV,0,UL,1,LI",
+                  "selector": "div.field-group-htabs-wrapper > div.horizontal-tabs > ul.horizontal-tabs-list > li.horizontal-tab-button",
+                  "boundingRect": {
+                    "top": 713,
+                    "bottom": 742,
+                    "left": 262,
+                    "right": 338,
+                    "width": 75,
+                    "height": 30
+                  },
+                  "snippet": "<li class=\"horizontal-tab-button horizontal-tab-button-1 last\" tabindex=\"-1\">",
+                  "nodeLabel": "Blog posts"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
