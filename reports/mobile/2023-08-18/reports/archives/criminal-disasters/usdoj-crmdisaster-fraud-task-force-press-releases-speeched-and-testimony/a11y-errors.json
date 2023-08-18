@@ -1,0 +1,1099 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-77-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 80,
+              "right": 120,
+              "width": 40,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/january.html\">",
+            "nodeLabel": "January",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-78-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 133,
+              "right": 180,
+              "width": 47,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/february.html\">",
+            "nodeLabel": "February",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-79-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 193,
+              "right": 227,
+              "width": 34,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/march.html\">",
+            "nodeLabel": "March",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-80-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 240,
+              "right": 267,
+              "width": 27,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/april.html\">",
+            "nodeLabel": "April",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-81-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,5,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 280,
+              "right": 304,
+              "width": 24,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/may.html\">",
+            "nodeLabel": "May",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-82-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,6,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 317,
+              "right": 341,
+              "width": 24,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/june.html\">",
+            "nodeLabel": "June",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-83-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,7,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 354,
+              "right": 376,
+              "width": 22,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/july.html\">",
+            "nodeLabel": "July",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-84-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,8,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 389,
+              "right": 426,
+              "width": 38,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/august.html\">",
+            "nodeLabel": "August",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-85-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,9,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 439,
+              "right": 495,
+              "width": 56,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/september.html\">",
+            "nodeLabel": "September",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-86-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,10,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 508,
+              "right": 550,
+              "width": 42,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/october.html\">",
+            "nodeLabel": "October",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-87-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,11,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 563,
+              "right": 618,
+              "width": 55,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/november.html\">",
+            "nodeLabel": "November",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-88-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR,12,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 623,
+              "left": 631,
+              "right": 684,
+              "width": 53,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2008/december.html\">",
+            "nodeLabel": "December",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-182-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,1,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 604,
+                    "bottom": 635,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2008:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-101-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 80,
+              "right": 120,
+              "width": 40,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/january.html\">",
+            "nodeLabel": "January",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-102-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 133,
+              "right": 180,
+              "width": 47,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/february.html\">",
+            "nodeLabel": "February",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-103-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 193,
+              "right": 227,
+              "width": 34,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/march.html\">",
+            "nodeLabel": "March",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-104-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 240,
+              "right": 267,
+              "width": 27,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/april.html\">",
+            "nodeLabel": "April",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-105-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,5,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 280,
+              "right": 304,
+              "width": 24,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/may.html\">",
+            "nodeLabel": "May",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-106-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,6,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 317,
+              "right": 341,
+              "width": 24,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/june.html\">",
+            "nodeLabel": "June",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-107-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,7,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 354,
+              "right": 376,
+              "width": 22,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/july.html\">",
+            "nodeLabel": "July",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-108-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,8,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 389,
+              "right": 426,
+              "width": 38,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/august.html\">",
+            "nodeLabel": "August",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,9,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 439,
+              "right": 495,
+              "width": 56,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/september.html\">",
+            "nodeLabel": "September",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-110-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,10,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 508,
+              "right": 550,
+              "width": 42,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/october.html\">",
+            "nodeLabel": "October",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-111-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,11,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 563,
+              "right": 618,
+              "width": 55,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/november.html\">",
+            "nodeLabel": "November",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR,12,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 686,
+              "left": 631,
+              "right": 684,
+              "width": 53,
+              "height": 15
+            },
+            "snippet": "<a href=\"/criminal/disasters/pr/2006/december.html\">",
+            "nodeLabel": "December",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,0,TBODY,3,TR",
+                  "selector": "div.pressbody > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 667,
+                    "bottom": 698,
+                    "left": 13,
+                    "right": 690,
+                    "width": 677,
+                    "height": 31
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "2006:\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovem…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 24
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2-A",
+            "path": "7,HTML,2,BODY,2,SECTION,1,DIV,0,DIV,0,A",
+            "selector": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "boundingRect": {
+              "top": 48,
+              "bottom": 94,
+              "left": 364,
+              "right": 412,
+              "width": 48,
+              "height": 46
+            },
+            "snippet": "<a href=\"#nav\" class=\"meanmenu-reveal\" style=\"background:;color:;right:0;left:auto;\">",
+            "nodeLabel": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

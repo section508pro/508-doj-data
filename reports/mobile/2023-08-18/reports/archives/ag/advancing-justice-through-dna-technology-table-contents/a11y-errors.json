@@ -1,0 +1,310 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-66-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,3,TABLE,0,TBODY,1,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 513,
+              "bottom": 528,
+              "left": 25,
+              "right": 173,
+              "width": 149,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/dnapolicybook_solve_crimes.htm\">",
+            "nodeLabel": "Using DNA to Solve Crimes",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-139-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,3,TABLE,0,TBODY,1,TR",
+                  "selector": "td > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 507,
+                    "bottom": 535,
+                    "left": 20,
+                    "right": 393,
+                    "width": 373,
+                    "height": 28
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Using DNA to Solve Crimes"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-68-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,3,TABLE,0,TBODY,3,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 569,
+              "bottom": 584,
+              "left": 60,
+              "right": 279,
+              "width": 219,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/dnapolicybook_solve_crimes.htm\">",
+            "nodeLabel": "Strengthening Crime Laboratory Capacity",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-140-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,3,TABLE,0,TBODY,3,TR",
+                  "selector": "td > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 563,
+                    "bottom": 591,
+                    "left": 20,
+                    "right": 393,
+                    "width": 373,
+                    "height": 28
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": " \tStrengthening Crime Laboratory Capacity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-70-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,3,TABLE,0,TBODY,5,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 626,
+              "bottom": 641,
+              "left": 60,
+              "right": 277,
+              "width": 217,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/dnapolicybook_solve_crimes.htm\">",
+            "nodeLabel": "Training the Criminal Justice Community",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-141-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,3,TABLE,0,TBODY,5,TR",
+                  "selector": "td > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 620,
+                    "bottom": 648,
+                    "left": 20,
+                    "right": 393,
+                    "width": 373,
+                    "height": 28
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": " \tTraining the Criminal Justice Community"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-72-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,3,TABLE,0,TBODY,7,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 682,
+              "bottom": 697,
+              "left": 25,
+              "right": 233,
+              "width": 208,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/dnapolicybook_miss_persons.htm\">",
+            "nodeLabel": "Using DNA to Identify Missing Persons",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #8c6e20, background color: #f9f5e5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-142-TR",
+                  "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,3,TABLE,0,TBODY,7,TR",
+                  "selector": "td > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 676,
+                    "bottom": 704,
+                    "left": 20,
+                    "right": 393,
+                    "width": 373,
+                    "height": 28
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Using DNA to Identify Missing Persons"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,2,H4",
+            "selector": "tbody > tr > td > h4",
+            "boundingRect": {
+              "top": 443,
+              "bottom": 461,
+              "left": 20,
+              "right": 393,
+              "width": 373,
+              "height": 18
+            },
+            "snippet": "<h4 align=\"CENTER\">",
+            "nodeLabel": "TABLE OF CONTENTS",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2-A",
+            "path": "7,HTML,2,BODY,2,SECTION,1,DIV,0,DIV,0,A",
+            "selector": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "boundingRect": {
+              "top": 48,
+              "bottom": 94,
+              "left": 364,
+              "right": 412,
+              "width": 48,
+              "height": 46
+            },
+            "snippet": "<a href=\"#nav\" class=\"meanmenu-reveal\" style=\"background:;color:;right:0;left:auto;\">",
+            "nodeLabel": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

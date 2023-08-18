@@ -1,0 +1,451 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 449,
+              "bottom": 467,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-171-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 643,
+              "bottom": 661,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-172-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,10,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 837,
+              "bottom": 855,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-173-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 1031,
+              "bottom": 1050,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,18,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 1225,
+              "bottom": 1244,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-175-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,22,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 1420,
+              "bottom": 1438,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-176-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,26,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 1632,
+              "bottom": 1650,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-177-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,30,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 1844,
+              "bottom": 1862,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-178-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,34,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 2038,
+              "bottom": 2056,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-179-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,38,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 2250,
+              "bottom": 2269,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,42,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 2481,
+              "bottom": 2499,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-181-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,46,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 2657,
+              "bottom": 2675,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-182-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,50,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 2869,
+              "bottom": 2887,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-183-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,54,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 3063,
+              "bottom": 3081,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-184-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,58,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 3275,
+              "bottom": 3294,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-185-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,62,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 3469,
+              "bottom": 3488,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-186-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,66,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 3682,
+              "bottom": 3700,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-187-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,70,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 3876,
+              "bottom": 3894,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-188-H4",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,74,H4",
+            "selector": "div.field__items > div.field__item > div.pressbody > h4",
+            "boundingRect": {
+              "top": 4070,
+              "bottom": 4088,
+              "left": 13,
+              "right": 399,
+              "width": 386,
+              "height": 18
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Press Release",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 19
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2-A",
+            "path": "7,HTML,2,BODY,2,SECTION,1,DIV,0,DIV,0,A",
+            "selector": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "boundingRect": {
+              "top": 48,
+              "bottom": 94,
+              "left": 364,
+              "right": 412,
+              "width": 48,
+              "height": 46
+            },
+            "snippet": "<a href=\"#nav\" class=\"meanmenu-reveal\" style=\"background:;color:;right:0;left:auto;\">",
+            "nodeLabel": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

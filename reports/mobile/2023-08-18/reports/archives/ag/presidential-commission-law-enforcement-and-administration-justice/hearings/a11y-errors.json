@@ -1,0 +1,262 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,0,LI,1,A",
+            "selector": "div > ul > li > a.doj-analytics-processed",
+            "boundingRect": {
+              "top": 5353,
+              "bottom": 5368,
+              "left": 462,
+              "right": 495,
+              "width": 33,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/page/file/1264756/download\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Audio",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,0,LI,3,A",
+            "selector": "div > ul > li > a.doj-analytics-processed",
+            "boundingRect": {
+              "top": 5371,
+              "bottom": 5386,
+              "left": 462,
+              "right": 520,
+              "width": 58,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/page/file/1264646/download\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Transcripts",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,1,LI,1,A",
+            "selector": "div > ul > li > a.doj-analytics-processed",
+            "boundingRect": {
+              "top": 5444,
+              "bottom": 5459,
+              "left": 462,
+              "right": 495,
+              "width": 33,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/page/file/1264761/download\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Audio",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-201-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,1,LI,3,A",
+            "selector": "div > ul > li > a.doj-analytics-processed",
+            "boundingRect": {
+              "top": 5444,
+              "bottom": 5459,
+              "left": 507,
+              "right": 565,
+              "width": 58,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/page/file/1264651/download\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Transcripts",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-202-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,2,LI,1,A",
+            "selector": "div > ul > li > a.doj-analytics-processed",
+            "boundingRect": {
+              "top": 5517,
+              "bottom": 5532,
+              "left": 462,
+              "right": 495,
+              "width": 33,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/page/file/1264771/download\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Audio",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-203-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,2,LI,3,A",
+            "selector": "div > ul > li > a.doj-analytics-processed",
+            "boundingRect": {
+              "top": 5535,
+              "bottom": 5550,
+              "left": 462,
+              "right": 520,
+              "width": 58,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/page/file/1264656/download\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Transcripts",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-204-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,3,LI,0,A",
+            "selector": "div > ul > li > a",
+            "boundingRect": {
+              "top": 5553,
+              "bottom": 5568,
+              "left": 458,
+              "right": 501,
+              "width": 43,
+              "height": 15
+            },
+            "snippet": "<a href=\"/opa/pr/readout-president-s-commission-law-enforcement-and-administration-…\">",
+            "nodeLabel": "Readout",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-205-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,4,LI,0,A",
+            "selector": "div > ul > li > a.doj-analytics-processed",
+            "boundingRect": {
+              "top": 5571,
+              "bottom": 5586,
+              "left": 458,
+              "right": 509,
+              "width": 51,
+              "height": 15
+            },
+            "snippet": "<a href=\"/ag/page/file/1269111/download\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Summary",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-206-A",
+            "path": "7,HTML,2,BODY,3,SECTION,2,DIV,0,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,97,DIV,2,UL,5,LI,0,SPAN,1,A",
+            "selector": "ul > li > span.file > a.doj-analytics-processed",
+            "boundingRect": {
+              "top": 5590,
+              "bottom": 5677,
+              "left": 458,
+              "right": 513,
+              "width": 55,
+              "height": 88
+            },
+            "snippet": "<a href=\"/ag/page/file/1269421/download\" type=\"application/pdf; length=4445930\" target=\"_blank\" class=\"doj-analytics-processed\">",
+            "nodeLabel": "Agenda, Witness Bios and Testimony",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #8c6e20, background color: #e2dcd6, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 9
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2-A",
+            "path": "7,HTML,2,BODY,2,SECTION,1,DIV,0,DIV,0,A",
+            "selector": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "boundingRect": {
+              "top": 48,
+              "bottom": 94,
+              "left": 364,
+              "right": 412,
+              "width": 48,
+              "height": 46
+            },
+            "snippet": "<a href=\"#nav\" class=\"meanmenu-reveal\" style=\"background:;color:;right:0;left:auto;\">",
+            "nodeLabel": "section.justice-mobile-menu-container > div.justice-mobile-mean-container > div.mean-bar > a.meanmenu-reveal",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
